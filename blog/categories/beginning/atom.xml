@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: beginning | My Octopress Blog]]></title>
+  <link href="http://marthakelly.github.com/blog/categories/beginning/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
   <updated>2012-05-21T18:43:41-07:00</updated>
   <id>http://marthakelly.github.com/</id>
@@ -20,7 +20,7 @@
     <id>http://marthakelly.github.com/blog/2012/05/21/hello-internet</id>
     <content type="html"><![CDATA[<h1>hello internet!</h1>
 
-<p>Hello Internet, I&#8217;m Martha. I&#8217;m a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I&#8217;ve been accepted into the summer batch of Hacker School and graciously given a grant from Etsy. Their goal is to make me &#8220;a significantly better programmer.&#8221; My goal is to exceed their expectations :)</p>
+<p>Hello Internet, I'm Martha. I'm a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I've been accepted into the summer batch of Hacker School and graciously given a grant from Etsy. Their goal is to make me "a significantly better programmer." My goal is to exceed their expectations :)</p>
 
 <h2>About me:</h2>
 
