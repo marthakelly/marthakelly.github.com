@@ -4,7 +4,7 @@
   <title><![CDATA[Category: beginning | My Octopress Blog]]></title>
   <link href="http://marthakelly.github.com/blog/categories/beginning/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-05-21T18:43:41-07:00</updated>
+  <updated>2012-05-21T18:58:10-07:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -20,7 +20,7 @@
     <id>http://marthakelly.github.com/blog/2012/05/21/hello-internet</id>
     <content type="html"><![CDATA[<h1>hello internet!</h1>
 
-<p>Hello Internet, I'm Martha. I'm a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I've been accepted into the summer batch of Hacker School and graciously given a grant from Etsy. Their goal is to make me "a significantly better programmer." My goal is to exceed their expectations :)</p>
+<p>Hello Internet, I'm Martha. I'm a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I've been accepted into the summer batch of <a href="http://www.hackerschool.com">Hacker School</a> and graciously given a grant from <a href="http://www.etsy.com">Etsy</a>. Their goal is to make me "a significantly better programmer." My goal is to exceed their expectations :)</p>
 
 <h2>About me:</h2>
 
@@ -34,7 +34,7 @@
 </ul>
 
 
-<p>Never graduate ;)
+<p>Never graduate ;) <br />
 Martha</p>
 ]]></content>
   </entry>
