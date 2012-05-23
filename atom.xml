@@ -1,36 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-05-21T19:06:46-07:00</updated>
+  <updated>2012-05-22T19:19:40-07:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Martha Kelly]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[hello internet]]></title>
+    <title type="html"><![CDATA[first post: announcement!]]></title>
     <link href="http://marthakelly.github.com/blog/2012/05/21/hello-internet/"/>
     <updated>2012-05-21T18:30:00-07:00</updated>
     <id>http://marthakelly.github.com/blog/2012/05/21/hello-internet</id>
     <content type="html"><![CDATA[<p>I&#8217;m Martha. I&#8217;m a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I&#8217;ve been accepted into the summer batch of <a href="http://www.hackerschool.com">Hacker School</a> and graciously given a grant from <a href="http://www.etsy.com">Etsy</a>. Their goal is to make me &#8220;a significantly better programmer.&#8221; My goal is to exceed their expectations :)</p>
-
-<h2>About me:</h2>
-
-<ul>
-<li>I am infatuated with JavaScript.Ï</li>
-<li>My first experience with programming was building a DOS based Star Wars game in 4th grade.</li>
-<li>I was once a debutante (mostly against my will).</li>
-<li>I want to show women/young women that being a programmer is glamorous and fun.</li>
-<li>I graduated Summa Cum Laude from Auburn University.</li>
-<li>Collaborate leadership is my game.</li>
-</ul>
-
 
 <p>Never graduate ;) <br />
 Martha</p>
