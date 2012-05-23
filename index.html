@@ -9,7 +9,7 @@
   <meta name="author" content="Martha Kelly">
 
   
-  <meta name="description" content="I&#8217;m Martha. I&#8217;m a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be &hellip;">
+  <meta name="description" content="Hi, I&#8217;m Martha. I&#8217;m a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -26,15 +26,27 @@
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Martha Kelly" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href='http://fonts.googleapis.com/css?family=Poly' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'>
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32021226-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
 <body   >
   <header role="banner"><hgroup>
-  <!--h1 class="logo"><a href="/">Martha Kelly</a></h1>
+  <!--h1><a href="/">Martha Kelly</a></h1>
   
     <h2>web developer and programmer</h2>
   -->
@@ -47,7 +59,7 @@
   <nav role="navigation"><ul class="main-navigation">
   <li><a href="/">Home</a></li>
   <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/blog/about">About Martha</a></li>
+  <li><a href="/about">About Martha</a></li>
 </ul>
 
 <ul class="subscription" data-subscription="rss">
@@ -97,10 +109,20 @@
   </header>
 
 
-  <div class="entry-content"><p>I&#8217;m Martha. I&#8217;m a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I&#8217;ve been accepted into the summer batch of <a href="http://www.hackerschool.com">Hacker School</a> and graciously given a grant from <a href="http://www.etsy.com">Etsy</a>. Their goal is to make me &#8220;a significantly better programmer.&#8221; My goal is to exceed their expectations :)</p>
+  <div class="entry-content"><p>Hi, I&#8217;m Martha. I&#8217;m a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I&#8217;m really excited to announce that I&#8217;ve been accepted into the summer batch of <a href="http://www.hackerschool.com">Hacker School</a> hosted at <a href="http://www.etsy.com">Etsy</a>.</p>
 
-<p>Never graduate ;) <br />
+<blockquote><p>Hacker School is a three-month, full-time school in New York for becoming a better programmer. We&#8217;re free as in beer, and provide space, a little structure, time to focus, and a friendly community of smart builders dedicated to self-improvement.</p></blockquote>
+
+
+<p>I&#8217;ll spend my summer crunching code in the amazing <a href="http://mashable.com/2010/10/13/etsy-office-pics/#view_as_one_page-gallery_box377">Etsy offices in Brooklyn</a>. Their goal is to make me &#8220;a significantly better programmer.&#8221;</p>
+
+<p>My goal is to exceed their expectations.</p>
+
+<p>Never graduate! <br />
 Martha</p>
+
+<p>p.s.
+blog design was hastily put together (I used <a href="http://octopress.org/]%20-%20it's%20great!">Octopress</a>) - it will probably change constantly :)</p>
 </div>
   
   
@@ -118,7 +140,7 @@ Martha</p>
   
     <section>
   <p>Hi, I&#8217;m <a href="http://www.twitter.com/marthakelly">Martha Kelly</a>. I&#8217;m attending <a href="http://www.hackerschool.com">Hacker School</a> this summer. I am pink and fluffy on the outside, hard and code crunchy on the inside.</p>
-  <p>I like JavaScript, Python, HTML/CSS/LESS/Sass a whole lot.</p>
+  <p>I like JavaScript, Python, HTML/CSS/LESS/Sass a lot.</p>
 </section>
 <section>
   <h1>Recent Posts</h1>
@@ -129,6 +151,35 @@ Martha</p>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/marthakelly">@marthakelly</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'marthakelly',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
@@ -161,6 +212,19 @@ Martha</p>
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'marthakellydev';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 

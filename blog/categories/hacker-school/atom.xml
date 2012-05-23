@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hacker school | Martha Kelly]]></title>
+  <link href="http://marthakelly.github.com/blog/categories/hacker-school/atom.xml" rel="self"/>
+  <link href="http://marthakelly.github.com/"/>
+  <updated>2012-05-23T06:50:01-07:00</updated>
+  <id>http://marthakelly.github.com/</id>
+  <author>
+    <name><![CDATA[Martha Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[first post: announcement!]]></title>
+    <link href="http://marthakelly.github.com/blog/2012/05/21/hello-internet/"/>
+    <updated>2012-05-21T18:30:00-07:00</updated>
+    <id>http://marthakelly.github.com/blog/2012/05/21/hello-internet</id>
+    <content type="html"><![CDATA[<p>Hi, I'm Martha. I'm a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I'm really excited to announce that I've been accepted into the summer batch of <a href="http://www.hackerschool.com">Hacker School</a> hosted at <a href="http://www.etsy.com">Etsy</a>.</p>
+
+<p><blockquote><p>Hacker School is a three-month, full-time school in New York for becoming a better programmer. We're free as in beer, and provide space, a little structure, time to focus, and a friendly community of smart builders dedicated to self-improvement.</p></blockquote></p>
+
+<p>I'll spend my summer crunching code in the amazing <a href="http://mashable.com/2010/10/13/etsy-office-pics/#view_as_one_page-gallery_box377">Etsy offices in Brooklyn</a>. Their goal is to make me "a significantly better programmer."</p>
+
+<p>My goal is to exceed their expectations.</p>
+
+<p>Never graduate! <br />
+Martha</p>
+
+<p>p.s.
+blog design was hastily put together (I used <a href="http://octopress.org/]%20-%20it's%20great!">Octopress</a>) - it will probably change constantly :)</p>
+]]></content>
+  </entry>
+  
+</feed>
