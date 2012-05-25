@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: inspiration, | Martha Kelly]]></title>
-  <link href="http://marthakelly.github.com/blog/categories/inspiration-/atom.xml" rel="self"/>
+  <title><![CDATA[Category: inspiration | Martha Kelly]]></title>
+  <link href="http://marthakelly.github.com/blog/categories/inspiration/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-05-25T12:08:12-07:00</updated>
+  <updated>2012-05-25T12:09:04-07:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
