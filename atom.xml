@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-05-25T12:09:04-07:00</updated>
+  <updated>2012-05-27T13:43:07-07:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[daily inspiration]]></title>
+    <title type="html"><![CDATA[inspired]]></title>
     <link href="http://marthakelly.github.com/blog/2012/05/25/daily-inspiration/"/>
     <updated>2012-05-25T11:58:00-07:00</updated>
     <id>http://marthakelly.github.com/blog/2012/05/25/daily-inspiration</id>
@@ -48,7 +48,7 @@
 Martha</p>
 
 <p>p.s.
-blog design was hastily put together (I used <a href="http://octopress.org">Octopress</a>) - it will probably change constantly :)</p>
+blog design was hastily put together (I used <a href="http://octopress.org">Octopress</a>) - it will change constantly :)</p>
 ]]></content>
   </entry>
   
