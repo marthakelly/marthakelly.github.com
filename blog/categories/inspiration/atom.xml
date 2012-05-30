@@ -4,7 +4,7 @@
   <title><![CDATA[Category: inspiration | Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/blog/categories/inspiration/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-05-30T15:01:48-07:00</updated>
+  <updated>2012-05-30T15:06:44-07:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -18,7 +18,7 @@
     <link href="http://marthakelly.github.com/blog/2012/05/30/what-every-girl-needs-to-know-about-programming/"/>
     <updated>2012-05-30T12:57:00-07:00</updated>
     <id>http://marthakelly.github.com/blog/2012/05/30/what-every-girl-needs-to-know-about-programming</id>
-    <content type="html"><![CDATA[<p><iframe width="640" height="510" src="http://www.youtube.com/embed/_rkkFdQeBlA " frameborder="0" allowfullscreen></iframe></p>
+    <content type="html"><![CDATA[<p>{% youtube _rkkFdQeBlA %}</p>
 
 <h3>Highlights:</h3>
 
@@ -39,13 +39,15 @@
 
 <h3>Not convinced? Try thinking about it this way:</h3>
 
-<p>There are many girls and women frustrated by their experiences in programming, but men are not equally as frustrated. There are few girls and women pursing technology, but there an abundance of white males. <em>This means it's not the same situation</em>. There's no reason at all that girls (and boys for that matter!) who like shoes, nail polish, and miu miu handbags can't build amazing products that get just as much recognition.</p>
+<p>There are many girls and women frustrated by their experiences in programming, but men are not equally as frustrated. There are few girls and women pursing technology, but there is an abundance of white males. <em>This means it's not the same situation</em>. There's no reason at all that girls (and boys for that matter!) who like shoes, nail polish, and miu miu handbags can't build amazing products that get just as much recognition.</p>
 
 <h3>What can we do to help?</h3>
 
 <p>Girls need more inclusion and more role models (how many female Mark Zuckerbergs can you think of?). Also, we should all support organizations that make building and learning about technology fun (for example, <a href="http://railsgirls.com/">Rails Girls</a>). This should go without saying, but you should end any RTFM shaming, sexual/objectifying images, and demeaning jokes in the tech communities and workplaces you're a part of.</p>
 
-<p><blockquote><p>If I should ever have a daughter or a son I would like them to see the world of technology through this lens of magical culture.</p><footer><strong>Linda Liukas</strong> <cite>What Every Girl Needs to Know About Programming</cite></footer></blockquote></p>
+<p>{% blockquote Linda Liukas, What every girl needs to know about programming %}
+If I should ever have a daughter or a son I would like them to see the world of technology through this lens of magical culture.
+{% endblockquote %}</p>
 
 <p>Please check out <a href="http://railsgirls.com/">Rails Girls</a>, and Linda - thank you.</p>
 
@@ -58,9 +60,13 @@
     <link href="http://marthakelly.github.com/blog/2012/05/25/daily-inspiration/"/>
     <updated>2012-05-25T11:58:00-07:00</updated>
     <id>http://marthakelly.github.com/blog/2012/05/25/daily-inspiration</id>
-    <content type="html"><![CDATA[<p><blockquote><p>As one of the few female students studying automotive design, I naively felt the need to blend in with my male classmates and find a way to minimize being seen as the only girl. I contemplated signing all of my design sketches as “Chris Park” instead of “Christine Park,” but in the back of my mind I knew it didn’t feel right. My professor offered some great guidance by telling me, “Be who you are.” I learned to embrace the fact that my uniqueness helped set me apart.</p></blockquote></p>
+    <content type="html"><![CDATA[<p>{% blockquote %}
+As one of the few female students studying automotive design, I naively felt the need to blend in with my male classmates and find a way to minimize being seen as the only girl. I contemplated signing all of my design sketches as “Chris Park” instead of “Christine Park,” but in the back of my mind I knew it didn’t feel right. My professor offered some great guidance by telling me, “Be who you are.” I learned to embrace the fact that my uniqueness helped set me apart.
+{% endblockquote %}</p>
 
-<p><blockquote><p>Today, working in an industry where there are few women, I can bring a different perspective to the table. But, I never want my gender to define me. Instead, my work will speak for itself, and I now know the key is being comfortable in my own skin.</p></blockquote></p>
+<p>{% blockquote %}
+Today, working in an industry where there are few women, I can bring a different perspective to the table. But, I never want my gender to define me. Instead, my work will speak for itself, and I now know the key is being comfortable in my own skin.
+{% endblockquote %}</p>
 
 <p>Christine Park - <a href="http://www.forbes.com/sites/jennagoudreau/2012/05/25/how-i-went-from-art-school-to-gms-senior-cadillac-designer-by-age-28/">How I Went From Art School To GM's Senior Cadillac Designer By Age 28</a></p>
 ]]></content>
