@@ -4,7 +4,7 @@
   <title><![CDATA[Category: girl power | Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/blog/categories/girl-power/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-05-30T15:09:59-07:00</updated>
+  <updated>2012-05-30T15:10:29-07:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -18,7 +18,7 @@
     <link href="http://marthakelly.github.com/blog/2012/05/30/what-every-girl-needs-to-know-about-programming/"/>
     <updated>2012-05-30T12:57:00-07:00</updated>
     <id>http://marthakelly.github.com/blog/2012/05/30/what-every-girl-needs-to-know-about-programming</id>
-    <content type="html"><![CDATA[<p>{% youtube _rkkFdQeBlA %}</p>
+    <content type="html"><![CDATA[<p><iframe width="640" height="510" src="http://www.youtube.com/embed/_rkkFdQeBlA " frameborder="0" allowfullscreen></iframe></p>
 
 <h3>Highlights:</h3>
 
@@ -45,9 +45,7 @@
 
 <p>Girls need more inclusion and more role models (how many female Mark Zuckerbergs can you think of?). Support organizations that make building and learning about technology fun (for example, <a href="http://railsgirls.com/">Rails Girls</a>). This should go without saying, but you should end any RTFM shaming, sexual/objectifying images, and demeaning jokes in the tech communities and workplaces you're a part of.</p>
 
-<p>{% blockquote Linda Liukas, What every girl needs to know about programming %}
-If I should ever have a daughter or a son I would like them to see the world of technology through this lens of magical culture.
-{% endblockquote %}</p>
+<p><blockquote><p>If I should ever have a daughter or a son I would like them to see the world of technology through this lens of magical culture.</p><footer><strong>Linda Liukas</strong> <cite>What Every Girl Needs to Know About Programming</cite></footer></blockquote></p>
 
 <p>Please check out <a href="http://railsgirls.com/">Rails Girls</a>, and Linda - thank you.</p>
 
