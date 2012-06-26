@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-06-13T08:12:21-04:00</updated>
+  <updated>2012-06-26T08:49:15-04:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Unlocking the Clubhouse]]></title>
+    <link href="http://marthakelly.github.com/blog/2012/06/26/unlocking-the-clubhouse/"/>
+    <updated>2012-06-26T08:47:00-04:00</updated>
+    <id>http://marthakelly.github.com/blog/2012/06/26/unlocking-the-clubhouse</id>
+    <content type="html"><![CDATA[<blockquote><p>The goal is not to fit women into computer science as it is currently taught and conceived. Rather, a cultural and curricular revolution is required.</p><footer><strong>Jane Margolis, Allan Fisher</strong> <cite><a href='http://www.amazon.com/Unlocking-Clubhouse-Computing-Jane-Margolis/dp/0262133989'>www.amazon.com/dp/0262133989/&hellip;</a></cite></footer></blockquote>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[creator vs builder]]></title>
