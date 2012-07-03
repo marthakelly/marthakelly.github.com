@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-07-02T22:38:43-04:00</updated>
+  <updated>2012-07-02T22:39:19-04:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -18,7 +18,7 @@
     <link href="http://marthakelly.github.com/blog/2012/07/02/interesting-use-case-for-recursion/"/>
     <updated>2012-07-02T21:53:00-04:00</updated>
     <id>http://marthakelly.github.com/blog/2012/07/02/interesting-use-case-for-recursion</id>
-    <content type="html"><![CDATA[<p>Recursion is the process of defining an infinite set of objects by a single process. While programming an example of this is invoking a function from within itself.</p>
+    <content type="html"><![CDATA[<p>Recursion is the process of defining an infinite set of objects by a single process. In programming an example of this is invoking a function from within itself.</p>
 
 <p>I found an interesting use case for this when I was building my lightweight CSS pre-processor, <a href="https://github.com/marthakelly/bareBones.js">bareBones.js</a></p>
 
