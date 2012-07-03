@@ -121,7 +121,7 @@
 
 <p>If the current object has children it will map the same function over each object in its array. (Then I reduce this array of arrays into an array of strings&#8230;a bit unorthodox, yes&#8230;:D).</p>
 
-<p>Next, I map over each entry in the new array of strings and return the current parent selector and concatenate it to the child being iterated on.</p>
+<p>Next, I map over each entry in the new array of strings and return the current parent selector concatenated to the child being iterated on.</p>
 
 <p>Lastly, I push the original parentCSS object (the parent of the child) in front of the array to display CSS selector precedence correctly.</p>
 
@@ -1124,6 +1124,35 @@ blog design was hastily put together (I used <a href="http://octopress.org">Octo
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/marthakelly">@marthakelly</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'marthakelly',
+            count: 10,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

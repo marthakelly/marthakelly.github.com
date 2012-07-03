@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-07-02T22:39:19-04:00</updated>
+  <updated>2012-07-02T22:40:59-04:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -30,7 +30,7 @@
 
 <p>If the current object has children it will map the same function over each object in its array. (Then I reduce this array of arrays into an array of strings&#8230;a bit unorthodox, yes&#8230;:D).</p>
 
-<p>Next, I map over each entry in the new array of strings and return the current parent selector and concatenate it to the child being iterated on.</p>
+<p>Next, I map over each entry in the new array of strings and return the current parent selector concatenated to the child being iterated on.</p>
 
 <p>Lastly, I push the original parentCSS object (the parent of the child) in front of the array to display CSS selector precedence correctly.</p>
 
