@@ -111,19 +111,17 @@
 
   <div class="entry-content"><p>Recursion is the process of defining an infinite set of objects by a single process. In programming an example of this is invoking a function from within itself.</p>
 
-<p>I found an interesting use case for this when I was building my lightweight CSS pre-processor, <a href="https://github.com/marthakelly/bareBones.js">bareBones.js</a></p>
+<p>I found an interesting use case for this when I was building my lightweight CSS pre-processor, <a href="https://github.com/marthakelly/bareBones.js">bareBones.js</a>, with JavaScript.</p>
 
-<p>In bareBones I &#8220;tokenize&#8221; and format my data structure until it&#8217;s array full of objects representing CSS blocks. Each object could potentially have a children array of identically structured objects (re: data-structure gist).</p>
+<p>In bareBones I &#8220;tokenize&#8221; and format my custom CSS syntax into an array of objects representing CSS blocks. Each object could potentially have a children array of identically structured objects (re: data-structure gist).</p>
 
-<p>I iterate over each object in this array <em>and</em> the children array (if it exists) with the exact same function (recursion)!</p>
+<p>To account for an infinite number of nested CSS objects I map the blockToCSS function over each object in the data array <em>and each object in its children array.</em> (recursion!)</p>
 
-<p>The most simple use case of the blockToCSS function is if the current object has no children. It will simply return the result of a formatted block of CSS as an entry in an array.</p>
+<p>If the object has no children the function will simply return a string of formatted CSS as a single entry in an array.</p>
 
-<p>If the current object has children it will map the same function over each object in its array. (Then I reduce this array of arrays into an array of strings&#8230;a bit unorthodox, yes&#8230;:D).</p>
+<p>If the object has children it will map the same function over each object in the children array. (After that I reduce this array of arrays into an array of strings&#8230;a bit unorthodox, yes&#8230;:D).</p>
 
-<p>Next, I map over each entry in the new array of strings and return the current parent selector concatenated to the child being iterated on.</p>
-
-<p>Lastly, I push the original parentCSS object (the parent of the child) in front of the array to display CSS selector precedence correctly.</p>
+<p>Next, I map over each entry in this new array so I can concatenate the parent selector in front of each child to conserve CSS precedence.</p>
 
 <div><script src='https://gist.github.com/3037040.js?file=data-structure.js'></script>
 <noscript><pre><code>&lt;!DOCTYPE html&gt;
@@ -752,9 +750,9 @@ I think you should use an
 </code></pre></noscript></div>
 
 
-<p>Hopefully this gives you more insight into use cases where recursion could be useful.</p>
+<p>The rest of this function (and the program) involves formatting the CSS which is not particularly interesting for a recursion discussion. Contact me if you want to know more!</p>
 
-<p>Happy programming :)</p>
+<p>Hopefully this gives you more insight into use cases where recursion could be useful, especially with nested data structures!</p>
 </div>
   
   
