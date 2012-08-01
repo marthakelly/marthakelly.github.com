@@ -223,7 +223,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2012/08/01/zoe-pablo-role-model-for-young-women/">Zoe Pablo: role model for young women</a>
+        <a href="/blog/2012/08/01/zoe-pablo-role-model-for-young-women/">Zoe Pablo: role model for women</a>
       </li>
     
       <li class="post">
@@ -243,6 +243,35 @@
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/marthakelly">@marthakelly</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'marthakelly',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
