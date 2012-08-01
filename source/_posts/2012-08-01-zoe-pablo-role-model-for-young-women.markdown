@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Zoe Pablo: role model for young women"
+title: "Zoe Pablo: role model for women"
 date: 2012-08-01 09:23
 comments: true
 categories: ["inspiration", "women"]
