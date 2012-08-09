@@ -200,7 +200,7 @@ def create_server():
 
 <p><strong>line 17.</strong> Select the image you would like to use on the virtual machine you are renting. I chose Ubuntu. (Note this could contain a list of multiple images you want to use/iterate over, my list just has one item)</p>
 
-<p><strong> More about AMI (Amazon Machine Images): </strong> Am image is just a snapshot of an Operating System (Windows, Linux, etc.) that you can put on a computer.</p>
+<p><strong> More about AMI (Amazon Machine Images): </strong> An image is just a snapshot of an Operating System (Windows, Linux, etc.) that you can put on a computer.</p>
 
 <p><strong>line 19.</strong> The run method returns a Reservation object which represents a collection of instances started at the same time. We&#8217;re only starting one (for now). There are a number of arguments you can specify here, I&#8217;m specifying the min number of instances to start (1), max number of instances to start (1), the key_name I want to use (name of the keypair I generated), security group, and instance_type (t1.micro).</p>
 
@@ -220,7 +220,7 @@ Public AMI instances have no password so you need a public/private key pair to l
 <pre><code>ssh -i path/to/key/myKey.pem ubuntu@my-ubuntu-public-ip.amazonaws.com 
 </code></pre>
 
-<p>(( coming up soon, i&#8217;ll write a boto/fab script to install the software necessary on this remote instance to run a django app  ))</p>
+<p>(( coming up soon, i&#8217;ll write a boto/fab script to install the software necessary on this machine to run a django app  ))</p>
 </div>
   
   
