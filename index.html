@@ -204,7 +204,8 @@ def create_server():
 
 <p><strong>line 19.</strong> The run method returns a Reservation object which represents a collection of instances started at the same time. We&#8217;re only starting one (for now). There are a number of arguments you can specify here, I&#8217;m specifying the min number of instances to start (1), max number of instances to start (1), the key_name I want to use (name of the keypair I generated), security group, and instance_type (t1.micro).</p>
 
-<p><strong> More about Key Pairs: </strong></p>
+<p><strong> More about Key Pairs: </strong>
+Public AMI instances have no password so you need a public/private key pair to log in to them. The public name of your key pair is embedded into your instance allowing you to use the private key (the .pem file you downloaded) when you ssh into your machine.</p>
 
 <p><strong>line 22.</strong> Get a reference to our specific instance object</p>
 
@@ -214,7 +215,10 @@ def create_server():
 
 <p><strong>line 29/30</strong> When the image is done installing update the user and display the public DNS name of this instance.</p>
 
-<p>Later you will use the public DNS name to ssh into the machine.</p>
+<p>Now you can use the public DNS name to ssh into the machine:</p>
+
+<pre><code>ssh -i path/to/key/myKey.pem ubuntu@my-ubuntu-public-ip.amazonaws.com 
+</code></pre>
 
 <p>(( coming up soon, i&#8217;ll write a boto/fab script to install the software necessary on this remote instance to run a django app  ))</p>
 </div>
