@@ -6,7 +6,7 @@ comments: true
 categories: ["inspiration", "women"]
 ---
 
-I found this article [ [article source]("http://zoepablosmith.wordpress.com/2012/07/23/thanks-but-no-thanks/") ] today and am so excited to share my favorite highlights with you. Women are marginalized by how they look and quite frankly *it's complete bullshit.*
+I found this article from Zoe Pablo, Olympic weight lifter, [ [article source](http://zoepablosmith.wordpress.com/2012/07/23/thanks-but-no-thanks/) ] today and am so excited to share my favorite highlights with you. Women are marginalized by how they look and quite frankly *it's complete bullshit.*
 
 {% blockquote Zoe Pablo, Thanks (but no thanks…) %}
 The obvious choice of slander when talking about female weightlifting is “how unfeminine, girls shouldn’t be strong or have muscles, this is wrong”. And maybe they’re right… in the Victorian era.
