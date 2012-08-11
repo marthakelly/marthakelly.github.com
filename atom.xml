@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-08-09T14:33:01-04:00</updated>
+  <updated>2012-08-11T11:22:23-04:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[front-end performance]]></title>
+    <link href="http://marthakelly.github.com/blog/2012/08/11/front-end-performance/"/>
+    <updated>2012-08-11T11:18:00-04:00</updated>
+    <id>http://marthakelly.github.com/blog/2012/08/11/front-end-performance</id>
+    <content type="html"><![CDATA[<blockquote><p>First, there is more potential for improvement in focusing on the frontend. If we were able to cut backend response times in half, the end user response time would decrease only 5–10% overall. If, instead, we reduce the frontend performance by half, we would reduce overall response times by 40-45%</p><footer><strong>Steve Souders</strong> <cite>High Performance Web Sites: Essential Knowledge for Front-End Engineers</cite></footer></blockquote>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Creating an EC2 instance with Fabric/Boto]]></title>
