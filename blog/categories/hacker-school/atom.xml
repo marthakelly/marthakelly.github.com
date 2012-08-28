@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: hacker school | Martha Kelly]]></title>
+  <title><![CDATA[Category: Hacker School | Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/blog/categories/hacker-school/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-08-19T15:40:00-04:00</updated>
+  <updated>2012-08-28T14:16:21-04:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -14,23 +14,40 @@
 
   
   <entry>
-    <title type="html"><![CDATA[hello internet]]></title>
-    <link href="http://marthakelly.github.com/blog/2012/05/21/hello-internet/"/>
-    <updated>2012-05-21T18:30:00-04:00</updated>
-    <id>http://marthakelly.github.com/blog/2012/05/21/hello-internet</id>
-    <content type="html"><![CDATA[<p>Hi, I'm Martha. I'm a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I'm really excited to announce that I've been accepted into the summer batch of <a href="http://www.hackerschool.com">Hacker School</a> hosted at <a href="http://www.etsy.com">Etsy</a>.</p>
+    <title type="html"><![CDATA[hacker school: day 90]]></title>
+    <link href="http://marthakelly.github.com/blog/2012/08/28/hacker-school-day-90/"/>
+    <updated>2012-08-28T11:52:00-04:00</updated>
+    <id>http://marthakelly.github.com/blog/2012/08/28/hacker-school-day-90</id>
+    <content type="html"><![CDATA[<p><img src="http://24.media.tumblr.com/tumblr_luxhb5MLBY1r52j4go1_500.jpg" /></p>
 
-<p><blockquote><p>Hacker School is a three-month, full-time school in New York for becoming a better programmer. We're free as in beer, and provide space, a little structure, time to focus, and a friendly community of smart builders dedicated to self-improvement.</p></blockquote></p>
+<p>I'm sitting in a cafe in Brooklyn, exhausted, disoriented, and happy. I'm thinking to myself, "Holy (enter your own choice expletive here). I did it, I finished Hacker School." I look back at my post recapping the first day and it's clear to me the rules of Hacker School permeate our lives, <em>and it feels completely natural</em>. Several Hacker Schoolers have told me how strange the outside world feels now.</p>
 
-<p>I'll spend my summer crunching code in the amazing <a href="http://mashable.com/2010/10/13/etsy-office-pics/#view_as_one_page-gallery_box377">Etsy offices in Brooklyn</a>. Their goal is to make me "a significantly better programmer."</p>
+<p>During my time at Hacker School I've built my own CSS preprocessor in JS and my own static site generator in Python. I've contributed to BPython. I built deployment scripts with Boto/Fabric. I built a CLI chat server with sockets. I built full applications with frameworks I hadn't touched before (Backbone/Node/Django/etc), and <em>quickly</em>. I took a Stanford course on databases. I'm taking courses on Machine Learning now. There's no way I'm stopping, and I wouldn't have found this place without being inspired by my friends here.</p>
 
-<p>My goal is to exceed their expectations.</p>
+<p>Even more importantly, I learned how to believe in myself. I learned how to ask for help. I learned how to fight my own biases and those of the people around me.</p>
 
-<p>Never graduate! <br />
-Martha</p>
+<h3>What I'll miss most:</h3>
 
-<p>p.s.
-blog design was hastily put together (I used <a href="http://octopress.org">Octopress</a>) - it will change constantly :)</p>
+<ul>
+<li>Every single person here</li>
+<li>Weekly Gender and Race discussions</li>
+<li>Having deeply nerdy conversations with women I admire</li>
+<li>Karaoke nights</li>
+<li><a href="http://www.flickr.com/photos/etsylabs/4622257286/">Eatsy</a></li>
+<li>IRC silliness</li>
+<li>Epic email threads</li>
+</ul>
+
+
+<p>One thing I know, we'll bring the <a href="http://marthakelly.github.com/blog/2012/06/04/hacker-school-day-one/">"rules" of Hacker School</a> with us wherever we go.</p>
+
+<p>After Hacker School I'm headed back to Nashville, a place I dearly love. This feeling of "otherness" is creeping back in as I start integrating back into the local developer community. A recent and popular developer conference had <a href="http://nashville.coderfaire.com/schedule/">one female speaker</a>. A company known for its great developer culture looks <a href="https://www.facebook.com/DevelopWithPurpose">eerily homogenous</a>. I have a lot of work to do here, and Hacker School has given me the skills to do it.</p>
+
+<p>So now, 90 days later, we go back out into the real world, egos in check, building code of consequence, and destroying stereotypes.</p>
+
+<p>Thanks Sonali, Dave, Alan, Tom</p>
+
+<p>Never Graduate!</p>
 ]]></content>
   </entry>
   
