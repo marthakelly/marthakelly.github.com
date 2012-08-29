@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-08-28T15:33:45-04:00</updated>
+  <updated>2012-08-29T08:10:17-04:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -20,9 +20,9 @@
     <id>http://marthakelly.github.com/blog/2012/08/28/hacker-school-day-90</id>
     <content type="html"><![CDATA[<p><img src="http://24.media.tumblr.com/tumblr_luxhb5MLBY1r52j4go1_500.jpg" /></p>
 
-<p>I&#8217;m sitting in a cafe in Brooklyn, exhausted, disoriented, and happy. I&#8217;m thinking to myself, &#8220;Holy (enter your own choice expletive here). I did it, I finished Hacker School.&#8221; I look back at my post recapping the first day and it&#8217;s clear to me the rules of Hacker School permeate our lives, <em>and it feels completely natural</em>. Several Hacker Schoolers have told me how strange the outside world feels now.</p>
+<p>I&#8217;m sitting in a cafe in Brooklyn, exhausted, disoriented, and happy. I&#8217;m thinking to myself, &#8220;Holy (enter your own choice expletive here). I did it, I finished Hacker School.&#8221; I look back at my post recapping the first day and it&#8217;s clear the rules of Hacker School permeate our lives, <em>and it feels completely natural</em>. Several Hacker Schoolers have told me how strange the outside world feels now.</p>
 
-<p>During my time at Hacker School I&#8217;ve built my own CSS preprocessor in JS and my own static site generator in Python. I&#8217;ve contributed to BPython. I built deployment scripts with Boto/Fabric. I built a CLI chat server with sockets. I built full applications with frameworks I hadn&#8217;t touched before (Backbone/Node/Django/etc), and <em>quickly</em>. I took a Stanford course on databases. I&#8217;m taking courses on Machine Learning now. There&#8217;s no way I&#8217;m stopping, and I wouldn&#8217;t have found this place without being inspired by my friends here.</p>
+<p>During my time at Hacker School I&#8217;ve built my own CSS preprocessor in JS and static site generator in Python. I&#8217;ve contributed to BPython. I built deployment scripts with Boto/Fabric. I built a CLI chat server with sockets. I built full applications with frameworks I hadn&#8217;t touched before (Backbone/Node/Django/etc), and <em>quickly</em>. I took a Stanford course on databases. I&#8217;m taking courses on Machine Learning now. There&#8217;s no way I&#8217;m stopping, and I wouldn&#8217;t have found this place without being inspired by my friends here.</p>
 
 <p>Even more importantly, I learned how to believe in myself. I learned how to ask for help. I learned how to fight my own biases and those of the people around me.</p>
 
@@ -41,7 +41,7 @@
 
 <p>One thing I know, we&#8217;ll bring the <a href="http://marthakelly.github.com/blog/2012/06/04/hacker-school-day-one/">&#8220;rules&#8221; of Hacker School</a> with us wherever we go.</p>
 
-<p>After Hacker School I&#8217;m headed back to Nashville, a place I dearly love. This feeling of &#8220;otherness&#8221; is creeping in as I start integrating back into the local developer community there. A recent and popular developer conference had <a href="http://nashville.coderfaire.com/schedule/">one female speaker</a>. A company known for its great developer culture looks <a href="https://www.facebook.com/DevelopWithPurpose">eerily homogenous</a>. I have a lot of work to do here, and Hacker School has given me the skills to do it.</p>
+<p>After Hacker School I&#8217;m headed back to Nashville, a place I dearly love. This feeling of &#8220;otherness&#8221; is creeping in as I integrate back into the developer community there. A recent and popular developer conference had <a href="http://nashville.coderfaire.com/schedule/">one female speaker</a>. A company known for its great developer culture looks <a href="https://www.facebook.com/DevelopWithPurpose">eerily homogenous</a>. I have a lot of work to do here, and Hacker School has given me the skill set to do it.</p>
 
 <p>So now, 90 days later, we go back out into the real world, egos in check, building code of consequence, and destroying stereotypes.</p>
 
