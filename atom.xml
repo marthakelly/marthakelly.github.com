@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-09-20T11:20:45-05:00</updated>
+  <updated>2012-09-24T13:39:17-05:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -12,6 +12,115 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JavaScript operators]]></title>
+    <link href="http://marthakelly.github.com/blog/2012/09/21/javascript-operators/"/>
+    <updated>2012-09-21T10:27:00-05:00</updated>
+    <id>http://marthakelly.github.com/blog/2012/09/21/javascript-operators</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been discovering little oddities in JS lately, and I think it&#8217;s worthwhile to know about them, so let&#8217;s take a look.</p>
+
+<h3>bitwise operators</h3>
+
+<p><a href="http://es5.github.com/#x11.7">Bitwise operators</a> treat operands (the values on either side of the operator) as a sequence of 32 bits (zeros and ones). These operators manipulate the values as binary representations and then return integers.</p>
+
+<p><em>Left Shift Operator ( &lt;&lt; ):</em></p>
+
+<pre><code>x &lt;&lt; y
+</code></pre>
+
+<p>Shifts the x to the left by y bits.</p>
+
+<p>Did you know:</p>
+
+<pre><code>x &lt;&lt; y
+</code></pre>
+
+<p>is the same as</p>
+
+<pre><code>x * Math.pow(2, y)
+</code></pre>
+
+<p>Example of usage:</p>
+
+<pre><code>console.log(10 * Math.pow(2, 10)); // logs 10240
+console.log(10 &lt;&lt; 10); // logs 10240
+</code></pre>
+
+<p><em>Right Shift Operator ( >> ):</em></p>
+
+<pre><code>x &gt;&gt; y
+</code></pre>
+
+<p>Shifts the x to the right by y bits.</p>
+
+<p>Example of usage: You can parse hexadecimal values to get RGB color values</p>
+
+<pre><code>var hex = 'FFEFD5'; // papayawhip
+var rgb = parseInt(hex, 16); // value: 16773077
+
+var red   = (rgb &gt;&gt; 16) &amp; 0xFF; // value: 255 
+var green = (rgb &gt;&gt; 8) &amp; 0xFF; // value: 239
+var blue  = rgb &amp; 0xFF; // value 213
+</code></pre>
+
+<p>(there are other bitwise operators in the spec, I&#8217;m just highlighting those interesting me to me here).</p>
+
+<p>Note: JavaScript numbers are technically stored in 64-bits, but are treated as 32 bit when bitwise operators are used.</p>
+
+<p>Also Note: There are a lot of dirty things you can do with bitwise operators, and I do not suggest them. One interesting implementation could be to store boolean flag information, one integer could hold 32 flags!</p>
+
+<h3>converting a string to an integer with + and -</h3>
+
+<p>I definitely do not recommend this, but it&#8217;s worth knowing about in case of extreme debugging.</p>
+
+<pre><code>var wat = +"7", 
+    meep = -"7", 
+    tinyKitten = +"tiniest of kittens";
+
+console.log(wat); // logs 7
+console.log(typeof wat); // logs "number"
+
+console.log(meep); // logs -7
+console.log(typeof meep); // logs "number"
+
+console.log(tinyKitten); // logs NaN
+console.log(typeof tinyKitten) // logs "number"
+</code></pre>
+
+<h3>difference between i++ and ++i (same for decrement)</h3>
+
+<p>++i returns the value of i after being incremented</p>
+
+<p>i++ returns the value of i before incrementing</p>
+
+<pre><code>var i = 0, j = 0;
+
+console.log(++i); // logs 1
+console.log(i++); // logs 0
+</code></pre>
+
+<h3>! and type casting</h3>
+
+<p>Did you know that the ! operator will cast the type of objects, etc. as boolean?</p>
+
+<pre><code>var kitten = {}, 
+    newKitten = !kitten, 
+    newerKitten = !!kitten;
+
+console.log(typeof kitten) // logs "object"
+console.log(newKitten); // logs false
+console.log(typeof newKitten); // logs "boolean"
+console.log(newerKitten); // logs true
+</code></pre>
+
+<p>Remember the !! is not a new operator, it&#8217;s just the ! (negation) operator twice. It&#8217;s still interesting/strange to me that it would cast the type.</p>
+
+<p>If this kind of thing is interesting to you, I highly recommend reading through the <a href="http://es5.github.com/#x11.4">docs</a> or <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Bitwise_Operators">MDN&#8217;s nice bitwise summary</a>.</p>
+
+<p>Also, I&#8217;d love if you&#8217;d leave your favorite lesser known JS features in the comments!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[pledge]]></title>

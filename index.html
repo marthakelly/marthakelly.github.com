@@ -9,7 +9,7 @@
   <meta name="author" content="Martha Kelly">
 
   
-  <meta name="description" content="Most awesome thing I saw on the internet today: I, Lindy West, a shrill bitch, do hereby pledge to talk really really loud in meetings if I have &hellip;">
+  <meta name="description" content="I&#8217;ve been discovering little oddities in JS lately, and I think it&#8217;s worthwhile to know about them, so let&#8217;s take a look. bitwise &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -51,7 +51,7 @@
     <h2>web developer and programmer</h2>
   -->
 
-	<img class="[self]" src="/images/mk-logo3.png">
+	<a href="/"><img class="[self]" src="/images/mk-logo3.png"></a>
 
 </hgroup>
 
@@ -80,6 +80,142 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/09/21/javascript-operators/">JavaScript Operators</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-21T10:27:00-05:00" pubdate data-updated="true">Sep 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been discovering little oddities in JS lately, and I think it&#8217;s worthwhile to know about them, so let&#8217;s take a look.</p>
+
+<h3>bitwise operators</h3>
+
+<p><a href="http://es5.github.com/#x11.7">Bitwise operators</a> treat operands (the values on either side of the operator) as a sequence of 32 bits (zeros and ones). These operators manipulate the values as binary representations and then return integers.</p>
+
+<p><em>Left Shift Operator ( &lt;&lt; ):</em></p>
+
+<pre><code>x &lt;&lt; y
+</code></pre>
+
+<p>Shifts the x to the left by y bits.</p>
+
+<p>Did you know:</p>
+
+<pre><code>x &lt;&lt; y
+</code></pre>
+
+<p>is the same as</p>
+
+<pre><code>x * Math.pow(2, y)
+</code></pre>
+
+<p>Example of usage:</p>
+
+<pre><code>console.log(10 * Math.pow(2, 10)); // logs 10240
+console.log(10 &lt;&lt; 10); // logs 10240
+</code></pre>
+
+<p><em>Right Shift Operator ( >> ):</em></p>
+
+<pre><code>x &gt;&gt; y
+</code></pre>
+
+<p>Shifts the x to the right by y bits.</p>
+
+<p>Example of usage: You can parse hexadecimal values to get RGB color values</p>
+
+<pre><code>var hex = 'FFEFD5'; // papayawhip
+var rgb = parseInt(hex, 16); // value: 16773077
+
+var red   = (rgb &gt;&gt; 16) &amp; 0xFF; // value: 255 
+var green = (rgb &gt;&gt; 8) &amp; 0xFF; // value: 239
+var blue  = rgb &amp; 0xFF; // value 213
+</code></pre>
+
+<p>(there are other bitwise operators in the spec, I&#8217;m just highlighting those interesting me to me here).</p>
+
+<p>Note: JavaScript numbers are technically stored in 64-bits, but are treated as 32 bit when bitwise operators are used.</p>
+
+<p>Also Note: There are a lot of dirty things you can do with bitwise operators, and I do not suggest them. One interesting implementation could be to store boolean flag information, one integer could hold 32 flags!</p>
+
+<h3>converting a string to an integer with + and -</h3>
+
+<p>I definitely do not recommend this, but it&#8217;s worth knowing about in case of extreme debugging.</p>
+
+<pre><code>var wat = +"7", 
+    meep = -"7", 
+    tinyKitten = +"tiniest of kittens";
+
+console.log(wat); // logs 7
+console.log(typeof wat); // logs "number"
+
+console.log(meep); // logs -7
+console.log(typeof meep); // logs "number"
+
+console.log(tinyKitten); // logs NaN
+console.log(typeof tinyKitten) // logs "number"
+</code></pre>
+
+<h3>difference between i++ and ++i (same for decrement)</h3>
+
+<p>++i returns the value of i after being incremented</p>
+
+<p>i++ returns the value of i before incrementing</p>
+
+<pre><code>var i = 0, j = 0;
+
+console.log(++i); // logs 1
+console.log(i++); // logs 0
+</code></pre>
+
+<h3>! and type casting</h3>
+
+<p>Did you know that the ! operator will cast the type of objects, etc. as boolean?</p>
+
+<pre><code>var kitten = {}, 
+    newKitten = !kitten, 
+    newerKitten = !!kitten;
+
+console.log(typeof kitten) // logs "object"
+console.log(newKitten); // logs false
+console.log(typeof newKitten); // logs "boolean"
+console.log(newerKitten); // logs true
+</code></pre>
+
+<p>Remember the !! is not a new operator, it&#8217;s just the ! (negation) operator twice. It&#8217;s still interesting/strange to me that it would cast the type.</p>
+
+<p>If this kind of thing is interesting to you, I highly recommend reading through the <a href="http://es5.github.com/#x11.4">docs</a> or <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Bitwise_Operators">MDN&#8217;s nice bitwise summary</a>.</p>
+
+<p>Also, I&#8217;d love if you&#8217;d leave your favorite lesser known JS features in the comments!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -1211,45 +1347,6 @@ I think you should use an
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/13/creator-vs-builder/">Creator vs Builder</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-13T07:59:00-05:00" pubdate data-updated="true">Jun 13<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>And here’s the real crux of the problem: software engineers aren’t builders. Software engineers are creators. Building is what you do when you buy a piece of furniture from Ikea and get it home. The instructions are laid out and if you go step by step, you’ll get that comically small table you wanted. Creating is a different process, it’s birthing something without direction or instruction. It’s starting with a blank canvas and painting a masterpiece. Software engineers don’t get into coding because they want someone to tell them what to do, they get into it because they discovered they could create something useful. Every single software engineer fell in love with coding because she made a small, useful program early on and was hooked.</p></blockquote>
-
-
-<p><a href="http://www.nczonline.net/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/">The care and feeding of software engineers (or, why engineers are grumpy)</a> - Nicholas C. Zakas</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -1261,12 +1358,16 @@ I think you should use an
 <aside class="sidebar resources">
   
     <section>
-  <p>Hi, I&#8217;m <a href="http://www.twitter.com/marthakelly">Martha Kelly</a>. I&#8217;m attending <a href="http://www.hackerschool.com">Hacker School</a> this summer. I am pink and fluffy on the outside, hard and code crunchy on the inside.</p>
-  <p>JavaScript, Python, HTML/CSS/LESS/Sass</p>
+  <p>Hi, I&#8217;m <a href="http://www.twitter.com/marthakelly">Martha Kelly</a>. I&#8217;m a Software Engineer at <a href="http://www.etsy.com">Etsy</a>. Previously I was a student at <a href="http://www.hackerschool.com">Hacker School</a>. All thoughts here are my own and do not reflect my employer. I am pink and fluffy on the outside, hard and code crunchy on the inside.</p>
+  <p>JavaScript, PHP, Python, HTML/CSS</p>
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/09/21/javascript-operators/">JavaScript operators</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/09/19/pledge/">pledge</a>
@@ -1282,10 +1383,6 @@ I think you should use an
     
       <li class="post">
         <a href="/blog/2012/08/19/rehabilitating-the-arrogant-engineer/">rehabilitating-the-arrogant-engineer</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/11/front-end-performance/">front-end performance</a>
       </li>
     
   </ul>
@@ -1337,7 +1434,8 @@ I think you should use an
   
 </section>
 
-
+<h1>Etsy Favorites</h1>
+<script type='text/javascript' src='http://www.etsy.com/etsy_mini.js'></script><script type='text/javascript'>new EtsyNameSpace.Mini(13085910, 'favorites','thumbnail',3,2).renderIframe();</script>
   
 </aside>
 
