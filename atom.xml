@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-09-27T15:00:52-05:00</updated>
+  <updated>2012-09-29T15:01:22-05:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -12,6 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[first nashville women's STEM group meetup]]></title>
+    <link href="http://marthakelly.github.com/blog/2012/09/29/first-nashville-womens-stem-group-meetup/"/>
+    <updated>2012-09-29T11:49:00-05:00</updated>
+    <id>http://marthakelly.github.com/blog/2012/09/29/first-nashville-womens-stem-group-meetup</id>
+    <content type="html"><![CDATA[<p>I&#8217;m happy to report the first Nashville Women&#8217;s STEM Group meet up was <em>a crazy amount of fun</em>. The highlights included conversations on skepticism, nuclear pharmacy, minecraft (complete with a demonstration), infectious diseases, and really intriguing discussions on our shared experiences as females in technical fields. It was really nice to have a few beers with so many funny, brilliant women.</p>
+
+<h3>talking points for reflection</h3>
+
+<blockquote><p>&#8220;I&#8217;m not asking for special treatment, but i&#8217;m not one of the guys. It&#8217;s not too much to ask for this consideration.&#8221;</p></blockquote>
+
+
+
+
+<blockquote><p>&#8220;I&#8217;m not very girly, but I&#8217;ve had to act even more girly just to draw the line.&#8221;</p></blockquote>
+
+
+
+
+<blockquote><p>&#8220;It&#8217;s never the fact that someone said something that one time, it&#8217;s always that one last time that pushes you over.&#8221;</p></blockquote>
+
+
+<h3>Things I can&#8217;t stop loling over</h3>
+
+<blockquote><p>&#8220;That sign says, &#8216;Our high gravity beer is out of this world&#8217;, I think we should ask them to change that&#8230;&#8221;</p></blockquote>
+
+
+
+
+<blockquote><p>&#8220;The Committee for Skeptical Inquiry is having a conference in Nashville&#8230;I was doubtful they would ever come here.&#8221;</p></blockquote>
+
+
+<h3>Next meeting</h3>
+
+<p>Our next meeting is <strong>Nov 14th</strong>, most likely at 12th S Taproom. The interest I&#8217;ve seen from people who couldn&#8217;t make it last time is exciting. I&#8217;m also happy to announce we&#8217;re vetting sponsors, and some really fun events are coming our way in the new year!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[my actual response to the anonymous idiots on the internet]]></title>
@@ -181,7 +219,7 @@ console.log(newerKitten); // logs true
     <link href="http://marthakelly.github.com/blog/2012/09/14/self-expression/"/>
     <updated>2012-09-14T14:53:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/14/self-expression</id>
-    <content type="html"><![CDATA[<p>I wrote short piece for the lovely Poornima Vijayashanker at <a href="http://femgineer.com">Femgineer</a>, go and check it out if you like thoughts on learning to program!</p>
+    <content type="html"><![CDATA[<p>I wrote a short piece for the lovely Poornima Vijayashanker at <a href="http://femgineer.com">Femgineer</a>, go and check it out if you&#8217;d like to read my thoughts on learning to program!</p>
 
 <h3>Excerpt:</h3>
 
