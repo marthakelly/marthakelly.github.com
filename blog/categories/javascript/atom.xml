@@ -4,7 +4,7 @@
   <title><![CDATA[Category: javascript | Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-09-29T15:01:22-05:00</updated>
+  <updated>2012-09-30T17:31:45-04:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[JavaScript operators]]></title>
     <link href="http://marthakelly.github.com/blog/2012/09/21/javascript-operators/"/>
-    <updated>2012-09-21T10:27:00-05:00</updated>
+    <updated>2012-09-21T10:27:00-04:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/21/javascript-operators</id>
     <content type="html"><![CDATA[<p>I've been discovering little oddities in JS lately, and I think it's worthwhile to know about them, so let's take a look.</p>
 
