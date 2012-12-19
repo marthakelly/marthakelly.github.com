@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2012-09-30T17:31:45-04:00</updated>
+  <updated>2012-12-18T18:26:53-06:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -14,9 +14,63 @@
 
   
   <entry>
+    <title type="html"><![CDATA[where have you been??]]></title>
+    <link href="http://marthakelly.github.com/blog/2012/12/18/where-have-you-been/"/>
+    <updated>2012-12-18T17:45:00-06:00</updated>
+    <id>http://marthakelly.github.com/blog/2012/12/18/where-have-you-been</id>
+    <content type="html"><![CDATA[<p>Why, adjusting to (and just soaking in) Etsy life of course! It has been an astonishing amount of time since my last post, and I&#8217;m happy to report it&#8217;s been for great reasons.</p>
+
+<h3>Let&#8217;s catch up</h3>
+
+<p><a href="https://www.facebook.com/groups/nashSTEM/">Nashville Women&#8217;s STEM</a> group is going strong. We&#8217;ve been meeting bi-monthly and have big plans for 2013:</p>
+
+<ul>
+<li>Special fundraising to bring in leadership training</li>
+<li><a href="http://katemats.com/">Kate Matsudaira</a> blog post discussion series</li>
+<li>Open Sourcing an Arduino project guide for young women and men</li>
+<li>AP Computer Science test prep for young women</li>
+</ul>
+
+
+<p><strong> BREAKING NEWS!! </strong> I&#8217;m organizing <a href="http://nashville.nerdnite.com/">Nerd Nite Nashville</a>!
+What is Nerd Nite you ask?</p>
+
+<blockquote><p>We all know that learning is more fun when you’re drinking with friends and colleagues. Thus, Nerd Nite is a monthly event held in more than 50 cities across the globe during which several folks give 18-21-minute fun-yet-informative presentations across all disciplines – while the audience drinks along.</p><footer><strong>Nerd Nite</strong> <cite><a href='http://www.nerdnite.com'>www.nerdnite.com/&hellip;</a></cite></footer></blockquote>
+
+
+<p></p>
+
+<p>Here are a few of my favorite Nerd Nite presentations:</p>
+
+<iframe width="" height="" src="http://player.vimeo.com/video/27851814 " frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p></p>
+
+<iframe width="" height="" src="http://player.vimeo.com/video/19716014 " frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p></p>
+
+<p>Do you like 1) drinking with friends and colleagues 2) presenting and nerding out while drinking in front of your friends and colleagues? 3) are near Nashville? If so, email me: <a href="mailto:mk.girdler@gmail.com">mk.girdler@gmail.com</a></p>
+
+<p>Lastly, If you haven&#8217;t already seen this consider it required reading - <a href="http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/">&#8220;On Being a Senior Engineer&#8221;</a> by John Allspaw SVP of Technical Operations at Etsy.</p>
+
+<p>Notable soundbite:</p>
+
+<blockquote><p>You don’t wake up one day and you are “senior” just because your title reflects that upon a promotion. Senior engineers don’t know everything. They’re not perfect in their technical knowledge, and they’re OK with that.</p><footer><strong>John Allspaw</strong> <cite><a href='http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/'>www.kitchensoap.com/2012/10/25/&hellip;</a></cite></footer></blockquote>
+
+
+<p></p>
+
+<p>Soon I&#8217;ll be able to write up some technical JS posts, and I&#8217;m starting to dig into <a href="http://www.golang.com">Go</a>. Are you doing interesting things with Go? If so, let me know about it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[things i'm into lately]]></title>
     <link href="http://marthakelly.github.com/blog/2012/09/30/things-im-into-lately/"/>
-    <updated>2012-09-30T17:13:00-04:00</updated>
+    <updated>2012-09-30T17:13:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/30/things-im-into-lately</id>
     <content type="html"><![CDATA[<p>1) <a href="http://www.hovding.com/en/us/">hovding</a></p>
 
@@ -50,7 +104,7 @@
   <entry>
     <title type="html"><![CDATA[first nashville women's STEM group meetup]]></title>
     <link href="http://marthakelly.github.com/blog/2012/09/29/first-nashville-womens-stem-group-meetup/"/>
-    <updated>2012-09-29T11:49:00-04:00</updated>
+    <updated>2012-09-29T11:49:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/29/first-nashville-womens-stem-group-meetup</id>
     <content type="html"><![CDATA[<p>I&#8217;m happy to report the first Nashville Women&#8217;s STEM Group meet up was <em>a crazy amount of fun</em>. The highlights included conversations on skepticism, nuclear pharmacy, minecraft (complete with a demonstration), infectious diseases, and really intriguing discussions on our shared experiences as females in technical fields. It was really nice to have a few beers with so many funny, brilliant women.</p>
 
@@ -88,7 +142,7 @@
   <entry>
     <title type="html"><![CDATA[my actual response to the anonymous idiots on the internet]]></title>
     <link href="http://marthakelly.github.com/blog/2012/09/27/my-actual-response-to-the-anonymous-idiots-on-the-internet/"/>
-    <updated>2012-09-27T13:16:00-04:00</updated>
+    <updated>2012-09-27T13:16:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/27/my-actual-response-to-the-anonymous-idiots-on-the-internet</id>
     <content type="html"><![CDATA[<p>My previous post was a bit tongue in cheek, and honestly, it was just so absurd I couldn&#8217;t <a href="http://i.chzbgr.com/completestore/2012/3/8/eb9c0160-78f4-4f08-8a03-34bbdb39a54e.jpg">halp</a> myself but share it with you.</p>
 
@@ -112,7 +166,7 @@
   <entry>
     <title type="html"><![CDATA[help craft my response to an anonymous idiot on the internet]]></title>
     <link href="http://marthakelly.github.com/blog/2012/09/27/help-craft-my-response-to-an-anonymous-idiot-on-the-internet/"/>
-    <updated>2012-09-27T11:20:00-04:00</updated>
+    <updated>2012-09-27T11:20:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/27/help-craft-my-response-to-an-anonymous-idiot-on-the-internet</id>
     <content type="html"><![CDATA[<p>Sometimes you see an anonymous post on the Internet that makes you 1) spit out your coffee 2) weep silently for humanity 3) hold a kitten while you gain your composure 4) Ask your friends to help you write a hilarious response.</p>
 
@@ -128,7 +182,7 @@
   <entry>
     <title type="html"><![CDATA[JavaScript operators]]></title>
     <link href="http://marthakelly.github.com/blog/2012/09/21/javascript-operators/"/>
-    <updated>2012-09-21T10:27:00-04:00</updated>
+    <updated>2012-09-21T10:27:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/21/javascript-operators</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been discovering little oddities in JS lately, and I think it&#8217;s worthwhile to know about them, so let&#8217;s take a look.</p>
 
@@ -239,7 +293,7 @@ console.log(newerKitten); // logs true
   <entry>
     <title type="html"><![CDATA[pledge]]></title>
     <link href="http://marthakelly.github.com/blog/2012/09/19/pledge/"/>
-    <updated>2012-09-19T16:41:00-04:00</updated>
+    <updated>2012-09-19T16:41:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/19/pledge</id>
     <content type="html"><![CDATA[<p>Most awesome thing I saw on the internet today:</p>
 
@@ -251,7 +305,7 @@ console.log(newerKitten); // logs true
   <entry>
     <title type="html"><![CDATA[self expression]]></title>
     <link href="http://marthakelly.github.com/blog/2012/09/14/self-expression/"/>
-    <updated>2012-09-14T14:53:00-04:00</updated>
+    <updated>2012-09-14T14:53:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/09/14/self-expression</id>
     <content type="html"><![CDATA[<p>I wrote a short piece for the lovely Poornima Vijayashanker at <a href="http://femgineer.com">Femgineer</a>, go and check it out if you&#8217;d like to read my thoughts on learning to program!</p>
 
@@ -265,7 +319,7 @@ console.log(newerKitten); // logs true
   <entry>
     <title type="html"><![CDATA[hacker school: day 90]]></title>
     <link href="http://marthakelly.github.com/blog/2012/08/28/hacker-school-day-90/"/>
-    <updated>2012-08-28T11:52:00-04:00</updated>
+    <updated>2012-08-28T11:52:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/08/28/hacker-school-day-90</id>
     <content type="html"><![CDATA[<p><img src="http://24.media.tumblr.com/tumblr_luxhb5MLBY1r52j4go1_500.jpg" /></p>
 
@@ -303,7 +357,7 @@ console.log(newerKitten); // logs true
   <entry>
     <title type="html"><![CDATA[rehabilitating-the-arrogant-engineer]]></title>
     <link href="http://marthakelly.github.com/blog/2012/08/19/rehabilitating-the-arrogant-engineer/"/>
-    <updated>2012-08-19T15:36:00-04:00</updated>
+    <updated>2012-08-19T15:36:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/08/19/rehabilitating-the-arrogant-engineer</id>
     <content type="html"><![CDATA[<blockquote><p>Randy knew that learning to play in the sandbox with others—especially really smart people with different skill sets—drives innovation faster than someone trying to figure it out on their own, no matter how smart they are. But Randy also knew this wasn’t easy because many great engineers have serious deficiencies when it comes to working well with others. He knew because he was one of these people. He was a top engineer and had firsthand experience in both working through his interpersonal issues and working successfully in a team environment.</p><footer><strong>Scott Weiss</strong> <cite><a href='http://scott.a16z.com/2012/08/09/rehabilitating-the-arrogant-engineer/'>Rehabilitating the Arrogant Engineer</a></cite></footer></blockquote>
 
@@ -313,7 +367,7 @@ console.log(newerKitten); // logs true
   <entry>
     <title type="html"><![CDATA[front-end performance]]></title>
     <link href="http://marthakelly.github.com/blog/2012/08/11/front-end-performance/"/>
-    <updated>2012-08-11T11:18:00-04:00</updated>
+    <updated>2012-08-11T11:18:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/08/11/front-end-performance</id>
     <content type="html"><![CDATA[<blockquote><p>First, there is more potential for improvement in focusing on the frontend. If we were able to cut backend response times in half, the end user response time would decrease only 5–10% overall. If, instead, we reduce the frontend performance by half, we would reduce overall response times by 40-45%</p><footer><strong>Steve Souders</strong> <cite>High Performance Web Sites: Essential Knowledge for Front-End Engineers</cite></footer></blockquote>
 
@@ -325,7 +379,7 @@ console.log(newerKitten); // logs true
   <entry>
     <title type="html"><![CDATA[Creating an EC2 instance with Fabric/Boto]]></title>
     <link href="http://marthakelly.github.com/blog/2012/08/09/creating-an-ec2-instance-with-fabric-slash-boto/"/>
-    <updated>2012-08-09T11:44:00-04:00</updated>
+    <updated>2012-08-09T11:44:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/08/09/creating-an-ec2-instance-with-fabric-slash-boto</id>
     <content type="html"><![CDATA[<p>Lately i&#8217;ve been learning about networking/HTTP/various inner workings of the internet, so I&#8217;ve been working with AWS. I would like to share a script with you that I wrote to spin up EC2 instances.</p>
 
@@ -445,7 +499,7 @@ Public AMI instances have no password so you need a public/private key pair to l
   <entry>
     <title type="html"><![CDATA[Zoe Pablo: role model for women]]></title>
     <link href="http://marthakelly.github.com/blog/2012/08/01/zoe-pablo-role-model-for-young-women/"/>
-    <updated>2012-08-01T09:23:00-04:00</updated>
+    <updated>2012-08-01T09:23:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/08/01/zoe-pablo-role-model-for-young-women</id>
     <content type="html"><![CDATA[<p>I found this article from Zoe Pablo, Olympic weight lifter, [ <a href="http://zoepablosmith.wordpress.com/2012/07/23/thanks-but-no-thanks/">article source</a> ] today and am so excited to share my favorite highlights with you. Women are marginalized by how they look and quite frankly <em>it&#8217;s complete bullshit.</em></p>
 
@@ -464,7 +518,7 @@ Public AMI instances have no password so you need a public/private key pair to l
   <entry>
     <title type="html"><![CDATA[interesting use case for recursion]]></title>
     <link href="http://marthakelly.github.com/blog/2012/07/02/interesting-use-case-for-recursion/"/>
-    <updated>2012-07-02T21:53:00-04:00</updated>
+    <updated>2012-07-02T21:53:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/07/02/interesting-use-case-for-recursion</id>
     <content type="html"><![CDATA[<p>Recursion is the process of defining an infinite set of objects by a single process. In programming an example of this is invoking a function from within itself.</p>
 
@@ -1116,7 +1170,7 @@ I think you should use an
   <entry>
     <title type="html"><![CDATA[Unlocking the Clubhouse]]></title>
     <link href="http://marthakelly.github.com/blog/2012/06/26/unlocking-the-clubhouse/"/>
-    <updated>2012-06-26T08:47:00-04:00</updated>
+    <updated>2012-06-26T08:47:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/06/26/unlocking-the-clubhouse</id>
     <content type="html"><![CDATA[<blockquote><p>The goal is not to fit women into computer science as it is currently taught and conceived. Rather, a cultural and curricular revolution is required.</p><footer><strong>Jane Margolis, Allan Fisher</strong> <cite><a href='http://www.amazon.com/Unlocking-Clubhouse-Computing-Jane-Margolis/dp/0262133989'>www.amazon.com/dp/0262133989/&hellip;</a></cite></footer></blockquote>
 
@@ -1126,7 +1180,7 @@ I think you should use an
   <entry>
     <title type="html"><![CDATA[creator vs builder]]></title>
     <link href="http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder/"/>
-    <updated>2012-06-13T07:59:00-04:00</updated>
+    <updated>2012-06-13T07:59:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder</id>
     <content type="html"><![CDATA[<blockquote><p>And here’s the real crux of the problem: software engineers aren’t builders. Software engineers are creators. Building is what you do when you buy a piece of furniture from Ikea and get it home. The instructions are laid out and if you go step by step, you’ll get that comically small table you wanted. Creating is a different process, it’s birthing something without direction or instruction. It’s starting with a blank canvas and painting a masterpiece. Software engineers don’t get into coding because they want someone to tell them what to do, they get into it because they discovered they could create something useful. Every single software engineer fell in love with coding because she made a small, useful program early on and was hooked.</p></blockquote>
 
@@ -1138,7 +1192,7 @@ I think you should use an
   <entry>
     <title type="html"><![CDATA[hacker school: day one]]></title>
     <link href="http://marthakelly.github.com/blog/2012/06/04/hacker-school-day-one/"/>
-    <updated>2012-06-04T21:39:00-04:00</updated>
+    <updated>2012-06-04T21:39:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/06/04/hacker-school-day-one</id>
     <content type="html"><![CDATA[<p><img src="http://distilleryimage3.instagram.com/cb3e5f00aeb411e1a9f71231382044a1_7.jpg" /></p>
 
@@ -1196,7 +1250,7 @@ I think you should use an
   <entry>
     <title type="html"><![CDATA[Linda Liukas - What every girl needs to know about programming]]></title>
     <link href="http://marthakelly.github.com/blog/2012/05/30/what-every-girl-needs-to-know-about-programming/"/>
-    <updated>2012-05-30T12:57:00-04:00</updated>
+    <updated>2012-05-30T12:57:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/05/30/what-every-girl-needs-to-know-about-programming</id>
     <content type="html"><![CDATA[<iframe width="640" height="510" src="http://www.youtube.com/embed/_rkkFdQeBlA " frameborder="0" allowfullscreen></iframe>
 
@@ -1240,7 +1294,7 @@ I think you should use an
   <entry>
     <title type="html"><![CDATA[inspired]]></title>
     <link href="http://marthakelly.github.com/blog/2012/05/25/daily-inspiration/"/>
-    <updated>2012-05-25T11:58:00-04:00</updated>
+    <updated>2012-05-25T11:58:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/05/25/daily-inspiration</id>
     <content type="html"><![CDATA[<blockquote><p>As one of the few female students studying automotive design, I naively felt the need to blend in with my male classmates and find a way to minimize being seen as the only girl. I contemplated signing all of my design sketches as “Chris Park” instead of “Christine Park,” but in the back of my mind I knew it didn’t feel right. My professor offered some great guidance by telling me, “Be who you are.” I learned to embrace the fact that my uniqueness helped set me apart.</p></blockquote>
 
@@ -1257,7 +1311,7 @@ I think you should use an
   <entry>
     <title type="html"><![CDATA[hello internet]]></title>
     <link href="http://marthakelly.github.com/blog/2012/05/21/hello-internet/"/>
-    <updated>2012-05-21T18:30:00-04:00</updated>
+    <updated>2012-05-21T18:30:00-05:00</updated>
     <id>http://marthakelly.github.com/blog/2012/05/21/hello-internet</id>
     <content type="html"><![CDATA[<p>Hi, I&#8217;m Martha. I&#8217;m a developer for Cheezburger Network (I Can Has Cheezburger, Failblog, Memebase, Know Your Meme). Well, at least I will be until June. I&#8217;m really excited to announce that I&#8217;ve been accepted into the summer batch of <a href="http://www.hackerschool.com">Hacker School</a> hosted at <a href="http://www.etsy.com">Etsy</a>.</p>
 
