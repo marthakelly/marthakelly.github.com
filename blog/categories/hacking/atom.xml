@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hacking | Martha Kelly]]></title>
+  <link href="http://marthakelly.github.com/blog/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://marthakelly.github.com/"/>
+  <updated>2013-01-11T09:13:33-06:00</updated>
+  <id>http://marthakelly.github.com/</id>
+  <author>
+    <name><![CDATA[Martha Kelly]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Many Tamagotchis were harmed in the making of this presentation]]></title>
+    <link href="http://marthakelly.github.com/blog/2013/01/11/many-tamagotchis-were-harmed/"/>
+    <updated>2013-01-11T08:51:00-06:00</updated>
+    <id>http://marthakelly.github.com/blog/2013/01/11/many-tamagotchis-were-harmed</id>
+    <content type="html"><![CDATA[<p>I'd like to introduce you to one of my newfound heros, Natalie Silvanovich.</p>
+
+<p><iframe width="640" height="510" src="http://www.youtube.com/embed/WOJfUcCOhJ0 " frameborder="0" allowfullscreen></iframe></p>
+
+<p>Natalie Silvanovich is a "professional hacker" and Security Researcher. She tests <a href="http://www.rim.com/">RIM</a> products to prevent attackers from getting the information of BlackBerry users. She studied Electrical Engineering in School (although she claims it's been a long time since she's been in school), and in her spare time she hacks Tamagotchis.</p>
+
+<p>Natalie is super clever, persistent, and funny. Not to mention my main motivation in signing up for <a href="https://www.coursera.org/course/eefun">Fundamentals of Electrical Engineering</a> which starts in only 10 days. Now, who wants to take the course with me?</p>
+
+<p>Check out her posts/projects/hacking at <a href="http://www.kwartzlab.ca/author/natalies/">Kwartzlab</a> and follow her on Twitter <a href="https://twitter.com/natashenka">@natashenka</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

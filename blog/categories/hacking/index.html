@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>JavaScript operators - Martha Kelly</title>
+  <title>Category: hacking - Martha Kelly</title>
   <meta name="author" content="Martha Kelly">
 
   
-  <meta name="description" content="I&#8217;ve been discovering little oddities in JS lately, and I think it&#8217;s worthwhile to know about them, so let&#8217;s take a look. bitwise &hellip;">
+  <meta name="description" content="Category: hacking">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://marthakelly.github.com/blog/2012/09/21/javascript-operators">
+  <link rel="canonical" href="http://marthakelly.github.comblog/categories/hacking">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,195 +79,36 @@
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      <h1 class="entry-title">JavaScript Operators</h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-09-21T10:27:00-05:00" pubdate data-updated="true">Sep 21<span>st</span>, 2012</time>
-        
-      </p>
+    <h1 class="entry-title">Category: Hacking</h1>
     
   </header>
-
-
-<div class="entry-content"><p>I&#8217;ve been discovering little oddities in JS lately, and I think it&#8217;s worthwhile to know about them, so let&#8217;s take a look.</p>
-
-<h3>bitwise operators</h3>
-
-<p><a href="http://es5.github.com/#x11.7">Bitwise operators</a> treat operands (the values on either side of the operator) as a sequence of 32 bits (zeros and ones). These operators manipulate the values as binary representations and then return integers.</p>
-
-<p><em>Left Shift Operator ( &lt;&lt; ):</em></p>
-
-<pre><code>x &lt;&lt; y
-</code></pre>
-
-<p>Shifts the x to the left by y bits.</p>
-
-<p>Did you know:</p>
-
-<pre><code>x &lt;&lt; y
-</code></pre>
-
-<p>is [almost*] the same as</p>
-
-<pre><code>x * Math.pow(2, y)
-</code></pre>
-
-<p>Example of usage:</p>
-
-<pre><code>console.log(10 * Math.pow(2, 10)); // logs 10240
-console.log(10 &lt;&lt; 10); // logs 10240
-</code></pre>
-
-<p>[*truncating happens!]</p>
-
-<p><em>Right Shift Operator ( >> ):</em></p>
-
-<pre><code>x &gt;&gt; y
-</code></pre>
-
-<p>Shifts the x to the right by y bits.</p>
-
-<p>Example of usage: You can parse hexadecimal values to get RGB color values</p>
-
-<pre><code>var hex = 'FFEFD5'; // papayawhip
-var rgb = parseInt(hex, 16); // value: 16773077
-
-var red   = (rgb &gt;&gt; 16) &amp; 0xFF; // value: 255 
-var green = (rgb &gt;&gt; 8) &amp; 0xFF; // value: 239
-var blue  = rgb &amp; 0xFF; // value 213
-</code></pre>
-
-<p>(there are other bitwise operators in the spec, I&#8217;m just highlighting those interesting me to me here).</p>
-
-<p>Note: JavaScript numbers are technically stored in 64-bits, but are treated as 32 bit when bitwise operators are used.</p>
-
-<p>Also Note: There are a lot of dirty things you can do with bitwise operators, and I do not suggest them. One interesting implementation could be to store boolean flag information, one integer could hold 32 flags!</p>
-
-<h3>converting a string to an integer with + and -</h3>
-
-<p>I definitely do not recommend this, but it&#8217;s worth knowing about in case of extreme debugging.</p>
-
-<pre><code>var wat = +"7", 
-    meep = -"7", 
-    tinyKitten = +"tiniest of kittens";
-
-console.log(wat); // logs 7
-console.log(typeof wat); // logs "number"
-
-console.log(meep); // logs -7
-console.log(typeof meep); // logs "number"
-
-console.log(tinyKitten); // logs NaN
-console.log(typeof tinyKitten) // logs "number"
-</code></pre>
-
-<h3>difference between i++ and ++i (same for decrement)</h3>
-
-<p>++i returns the value of i after being incremented</p>
-
-<p>i++ returns the value of i before incrementing</p>
-
-<pre><code>var i = 0, j = 0;
-
-console.log(++i); // logs 1
-console.log(i++); // logs 0
-</code></pre>
-
-<h3>! and type casting</h3>
-
-<p>Did you know that the ! operator will cast the type of objects, etc. as boolean?</p>
-
-<pre><code>var kitten = {}, 
-    newKitten = !kitten, 
-    newerKitten = !!kitten;
-
-console.log(typeof kitten) // logs "object"
-console.log(newKitten); // logs false
-console.log(typeof newKitten); // logs "boolean"
-console.log(newerKitten); // logs true
-</code></pre>
-
-<p>Remember the !! is not a new operator, it&#8217;s just the ! (negation) operator twice. It&#8217;s still interesting/strange to me that it would cast the type.</p>
-
-<p>If this kind of thing is interesting to you, I highly recommend reading through the <a href="http://es5.github.com/#x11.4">docs</a> or <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Bitwise_Operators">MDN&#8217;s nice bitwise summary</a>.</p>
-
-<p>Also, I&#8217;d love if you&#8217;d leave your favorite lesser known JS features in the comments!</p>
-</div>
-
-
-  <footer>
-    <p class="meta">
-      
   
-
-<span class="byline author vcard">Posted by <span class="fn">Martha Kelly</span></span>
-
-      
-
-
-
-
-
+  <div id="blog-archives" class="category">
 
 
 
   
+  <h2>2013</h2>
+
+<article>
+  
+<h1><a href="/blog/2013/01/11/many-tamagotchis-were-harmed/">Many Tamagotchis were harmed in the making of this presentation</a></h1>
+<time datetime="2013-01-11T08:51:00-06:00" pubdate><span class='month'>Jan</span> <span class='day'>11</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/hacking/'>hacking</a>, <a class='category' href='/blog/categories/hero/'>hero</a>, <a class='category' href='/blog/categories/women/'>women</a></span>
+</footer>
 
 
-<time datetime="2012-09-21T10:27:00-05:00" pubdate data-updated="true">Sep 21<span>st</span>, 2012</time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/javascript/'>javascript</a>
-  
-</span>
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://marthakelly.github.com/blog/2012/09/21/javascript-operators/" data-via="marthakelly" data-counturl="http://marthakelly.github.com/blog/2012/09/21/javascript-operators/" >Tweet</a>
-  
-  
-  
-</div>
-
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2012/09/19/pledge/" title="Previous Post: pledge">&laquo; pledge</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2012/09/27/help-craft-my-response-to-an-anonymous-idiot-on-the-internet/" title="Next Post: help craft my response to an anonymous idiot on the internet">help craft my response to an anonymous idiot on the internet &raquo;</a>
-      
-    </p>
-  </footer>
 </article>
 
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-  </section>
+
+  
+</article>
 
 </div>
 
@@ -351,6 +192,9 @@ console.log(newerKitten); // logs true
 </section>
 
 
+
+
+
   
 </aside>
 
@@ -369,10 +213,7 @@ console.log(newerKitten); // logs true
       var disqus_shortname = 'marthakellydev';
       
         
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://marthakelly.github.com/blog/2012/09/21/javascript-operators/';
-        var disqus_url = 'http://marthakelly.github.com/blog/2012/09/21/javascript-operators/';
-        var disqus_script = 'embed.js';
+        var disqus_script = 'count.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
