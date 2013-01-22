@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tech | Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2013-01-21T21:18:52-06:00</updated>
+  <updated>2013-01-21T21:27:37-06:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -24,11 +24,11 @@
 
 <p><img src="http://marthakelly.github.com/images/google-chrome.png"></p>
 
-<p>That URL you typed maps to an IP address. This is called a DNS lookup. DNS stands for "Domain Name Service" and it maps numeric computer addresses to human readable names. All computers have a unique IP address. You can find out your personal computer's IP address by typing "ifconfig" into your terminal window and looking for the number that is displayed in dot decimal format, such as 255.255.255.255. (Note that 127.0.0.1 is used in your computer internally to refer to itself).</p>
+<p>That URL you typed maps to an IP address. This is called a DNS lookup. DNS stands for "Domain Name Service" and it maps numeric computer addresses to human readable names. All computers have a unique IP address. You can find out your personal computer's IP address by typing "ifconfig" into your terminal window and looking for the number that is displayed in dot decimal format, such as 000.000.000.000. (Note that 127.0.0.1 is used in your computer internally to refer to itself).</p>
 
 <p>For example, one IP address for Google is 74.125.134.102. You can enter 74.125.134.102 in the address bar and it will show the contents at www.google.com.</p>
 
-<p>Once the browser has the IP address it sends an HTTP request to the web server at that address. HTTP stands for "Hypertext Transfer Protocol" and is a used to facilitate requests from your client (the browser) and responses from the server. In our case the response is HTML from the web server at www.google.com.</p>
+<p>Once the browser has the IP address it sends an HTTP request to the web server at that address. HTTP stands for "Hypertext Transfer Protocol" and is used to facilitate requests from your client (the browser) and responses from the server. In our case the response is HTML from the web server at www.google.com.</p>
 
 <p>As this HTML response is being sent to your browser, the browser's rendering engine is displaying the requested content on your screen. To accomplish this the rendering engine "parses" the HTML and creates a DOM tree.</p>
 
