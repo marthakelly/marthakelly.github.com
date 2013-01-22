@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tech | Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2013-01-21T21:01:19-06:00</updated>
+  <updated>2013-01-21T21:02:34-06:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -52,7 +52,7 @@
 </code></pre>
 
 <p>And turns it (conceptually) into a DOM tree <em>like</em> this:<br/>
-(sorry photoshop is being a PITA)</p>
+(photoshop is being a PITA! I'll try to add an appropriate graph later)</p>
 
 <p><img src="http://www.w3schools.com/htmldom/htmltree.gif"></p>
 
