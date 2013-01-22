@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2013-01-11T10:52:40-06:00</updated>
+  <updated>2013-01-21T21:00:37-06:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[how browsers work]]></title>
+    <link href="http://marthakelly.github.com/blog/2013/01/21/how-browsers-work/"/>
+    <updated>2013-01-21T14:52:00-06:00</updated>
+    <id>http://marthakelly.github.com/blog/2013/01/21/how-browsers-work</id>
+    <content type="html"><![CDATA[<p>You know a bit about HTML, CSS, and JavaScript but do you now how a browser gets and uses these files to display a website?</p>
+
+<p>A browser has a UI (user interface) that most commonly includes an address bar, back/forward button, and reload button. Sometimes developers refer to this as the &#8220;chrome&#8221; (little &#8220;c&#8221;, not Chrome by Google) of a browser. When you navigate to a URL in the address bar you are making a &#8220;request&#8221; for the content at that URL.</p>
+
+<p><img src="http://marthakelly.github.com/images/google-chrome.png"></p>
+
+<p>That URL you typed maps to an IP address. This is called a DNS lookup. DNS stands for &#8220;Domain Name Service&#8221; and it maps numeric computer addresses to human readable names. All computers have a unique IP address. You can find out your personal computer&#8217;s IP address by typing &#8220;ifconfig&#8221; into your terminal window and looking for the number that is displayed in dot decimal format, such as 255.255.255.255. (Note that 127.0.0.1 is used in your computer internally to refer to itself).</p>
+
+<p>For example, one IP address for Google is 74.125.134.102. You can enter 204.232.175.78 in the address bar and it will show the contents at www.google.com.</p>
+
+<p>Once the browser has the IP address it sends an HTTP request to the web server at that address. HTTP stands for &#8220;Hypertext Transfer Protocol&#8221; and is a used to facilitate requests from your client (the browser) and responses from the server. In our case the response is HTML from the web server at www.google.com.</p>
+
+<p>As this HTML response is being sent to your browser, the browser&#8217;s rendering engine is displaying the requested content on your screen. To accomplish this the rendering engine &#8220;parses&#8221; the HTML and creates a DOM tree.</p>
+
+<p>To illustrate this, the rendering engine takes this HTML response:</p>
+
+<pre><code>// Simplified Google.com markup
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt; 
+    &lt;head&gt; 
+        &lt;title&gt;Google&lt;/title&gt;  
+        &lt;link rel="stylesheet" href="css/style.css" 
+            type="text/css" /&gt; 
+    &lt;/head&gt; 
+    &lt;body class="home"&gt; 
+        &lt;h1&gt;Google&lt;/h1&gt; 
+        &lt;img alt="Google" src="http://marthakelly.github.com/logos/google.jpg"&gt;
+        &lt;input&gt;
+        &lt;button&gt;Google Search&lt;/button&gt;
+    &lt;/body&gt; 
+&lt;/html&gt; 
+</code></pre>
+
+<p>And turns it (conceptually) into a DOM tree <em>like</em> this:<br/>
+(sorry photoshop is being a PITA)</p>
+
+<p><img src="http://www.w3schools.com/htmldom/htmltree.gif"></p>
+
+<p>The browser then parses style data (CSS or inline styles) and together with the HTML it constructs a render tree. The render tree displays rectangles (that represent divs, paragraphs, headlines, etc.) with a few visual attributes such as color and size dimensions. These rectangles are displayed in order on the page. Next, the browser lays out the contents in the position they will appear in the browser. The last step is &#8220;painting&#8221; where the elements are drawn on the screen.</p>
+
+<p>As the browser is rendering the HTML it will find tags (like our link tag and our img tag) that require files from other URLs. The browser will send a request to the web server to get each of these files.</p>
+
+<p>(Note: some interesting things happen in regards to caching but I&#8217;m overlooking them for now. I&#8217;ll include them in a later post).</p>
+
+<h3>Major Browsers</h3>
+
+<p>Firefox uses the Gecko rendering engine, a Mozilla product. Both Safari and Chrome (and now Opera on mobile?) use Webkit, which is an open source project. IE uses the Trident rendering engine.</p>
+
+<p>If you&#8217;re curious (as I am!) here&#8217;s the world wide browser market share in 2012:</p>
+
+<p>IE, 54.13%<br/>
+Firefox, 19.99%<br/>
+Chrome, 18.55%<br/>
+Safari, 5.21%<br/>
+Opera, 1.63%<br/>
+Other, 0.49%</p>
+
+<p>That was a quick and dirty overview. As the weeks go on I&#8217;ll dive deeply into each component, even getting down through the deeper layers of the network reference model. If you&#8217;re not sure what that is, you&#8217;ll know soon! (Hint: it&#8217;s how all those 0s and 1s travel over the wires).</p>
+
+<p>Sources:<br/>
+<a href="http://taligarsiel.com/Projects/howbrowserswork1.htm">http://taligarsiel.com/Projects/howbrowserswork1.htm</a><br/>
+<a href="http://bgr.com/2012/11/01/browser-market-share-october-2012-chrome-internet-explorerer/">http://bgr.com/2012/11/01/browser-market-share-october-2012-chrome-internet-explorerer/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Many Tamagotchis were harmed in the making of this presentation]]></title>
@@ -1308,23 +1378,6 @@ I think you should use an
 <p>Please check out <a href="http://railsgirls.com/">Rails Girls</a>, and Linda - thank you.</p>
 
 <p>(also, check out <a href="http://www.lindaliukas.fi/">Linda&#8217;s website!</a>)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[inspired]]></title>
-    <link href="http://marthakelly.github.com/blog/2012/05/25/daily-inspiration/"/>
-    <updated>2012-05-25T11:58:00-05:00</updated>
-    <id>http://marthakelly.github.com/blog/2012/05/25/daily-inspiration</id>
-    <content type="html"><![CDATA[<blockquote><p>As one of the few female students studying automotive design, I naively felt the need to blend in with my male classmates and find a way to minimize being seen as the only girl. I contemplated signing all of my design sketches as “Chris Park” instead of “Christine Park,” but in the back of my mind I knew it didn’t feel right. My professor offered some great guidance by telling me, “Be who you are.” I learned to embrace the fact that my uniqueness helped set me apart.</p></blockquote>
-
-
-
-
-<blockquote><p>Today, working in an industry where there are few women, I can bring a different perspective to the table. But, I never want my gender to define me. Instead, my work will speak for itself, and I now know the key is being comfortable in my own skin.</p></blockquote>
-
-
-<p>Christine Park - <a href="http://www.forbes.com/sites/jennagoudreau/2012/05/25/how-i-went-from-art-school-to-gms-senior-cadillac-designer-by-age-28/">How I Went From Art School To GM&#8217;s Senior Cadillac Designer By Age 28</a></p>
 ]]></content>
   </entry>
   

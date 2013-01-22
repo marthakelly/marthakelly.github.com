@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>creator vs builder - Martha Kelly</title>
+  <title>how browsers work - Martha Kelly</title>
   <meta name="author" content="Martha Kelly">
 
   
-  <meta name="description" content="And here’s the real crux of the problem: software engineers aren’t builders. Software engineers are creators. Building is what you do when you buy a &hellip;">
+  <meta name="description" content="You know a bit about HTML, CSS, and JavaScript but do you now how a browser gets and uses these files to display a website? A browser has a UI (user &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder">
+  <link rel="canonical" href="http://marthakelly.github.com/blog/2013/01/21/how-browsers-work">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -83,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Creator vs Builder</h1>
+      <h1 class="entry-title">How Browsers Work</h1>
     
     
       <p class="meta">
@@ -99,17 +99,75 @@
   
 
 
-<time datetime="2012-06-13T07:59:00-05:00" pubdate data-updated="true">Jun 13<span>th</span>, 2012</time>
+<time datetime="2013-01-21T14:52:00-06:00" pubdate data-updated="true">Jan 21<span>st</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><blockquote><p>And here’s the real crux of the problem: software engineers aren’t builders. Software engineers are creators. Building is what you do when you buy a piece of furniture from Ikea and get it home. The instructions are laid out and if you go step by step, you’ll get that comically small table you wanted. Creating is a different process, it’s birthing something without direction or instruction. It’s starting with a blank canvas and painting a masterpiece. Software engineers don’t get into coding because they want someone to tell them what to do, they get into it because they discovered they could create something useful. Every single software engineer fell in love with coding because she made a small, useful program early on and was hooked.</p></blockquote>
+<div class="entry-content"><p>You know a bit about HTML, CSS, and JavaScript but do you now how a browser gets and uses these files to display a website?</p>
 
+<p>A browser has a UI (user interface) that most commonly includes an address bar, back/forward button, and reload button. Sometimes developers refer to this as the &#8220;chrome&#8221; (little &#8220;c&#8221;, not Chrome by Google) of a browser. When you navigate to a URL in the address bar you are making a &#8220;request&#8221; for the content at that URL.</p>
 
-<p><a href="http://www.nczonline.net/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/">The care and feeding of software engineers (or, why engineers are grumpy)</a> - Nicholas C. Zakas</p>
+<p><img src="/images/google-chrome.png"></p>
+
+<p>That URL you typed maps to an IP address. This is called a DNS lookup. DNS stands for &#8220;Domain Name Service&#8221; and it maps numeric computer addresses to human readable names. All computers have a unique IP address. You can find out your personal computer&#8217;s IP address by typing &#8220;ifconfig&#8221; into your terminal window and looking for the number that is displayed in dot decimal format, such as 255.255.255.255. (Note that 127.0.0.1 is used in your computer internally to refer to itself).</p>
+
+<p>For example, one IP address for Google is 74.125.134.102. You can enter 204.232.175.78 in the address bar and it will show the contents at www.google.com.</p>
+
+<p>Once the browser has the IP address it sends an HTTP request to the web server at that address. HTTP stands for &#8220;Hypertext Transfer Protocol&#8221; and is a used to facilitate requests from your client (the browser) and responses from the server. In our case the response is HTML from the web server at www.google.com.</p>
+
+<p>As this HTML response is being sent to your browser, the browser&#8217;s rendering engine is displaying the requested content on your screen. To accomplish this the rendering engine &#8220;parses&#8221; the HTML and creates a DOM tree.</p>
+
+<p>To illustrate this, the rendering engine takes this HTML response:</p>
+
+<pre><code>// Simplified Google.com markup
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt; 
+    &lt;head&gt; 
+        &lt;title&gt;Google&lt;/title&gt;  
+        &lt;link rel="stylesheet" href="css/style.css" 
+            type="text/css" /&gt; 
+    &lt;/head&gt; 
+    &lt;body class="home"&gt; 
+        &lt;h1&gt;Google&lt;/h1&gt; 
+        &lt;img alt="Google" src="/logos/google.jpg"&gt;
+        &lt;input&gt;
+        &lt;button&gt;Google Search&lt;/button&gt;
+    &lt;/body&gt; 
+&lt;/html&gt; 
+</code></pre>
+
+<p>And turns it (conceptually) into a DOM tree <em>like</em> this:<br/>
+(sorry photoshop is being a PITA)</p>
+
+<p><img src="http://www.w3schools.com/htmldom/htmltree.gif"></p>
+
+<p>The browser then parses style data (CSS or inline styles) and together with the HTML it constructs a render tree. The render tree displays rectangles (that represent divs, paragraphs, headlines, etc.) with a few visual attributes such as color and size dimensions. These rectangles are displayed in order on the page. Next, the browser lays out the contents in the position they will appear in the browser. The last step is &#8220;painting&#8221; where the elements are drawn on the screen.</p>
+
+<p>As the browser is rendering the HTML it will find tags (like our link tag and our img tag) that require files from other URLs. The browser will send a request to the web server to get each of these files.</p>
+
+<p>(Note: some interesting things happen in regards to caching but I&#8217;m overlooking them for now. I&#8217;ll include them in a later post).</p>
+
+<h3>Major Browsers</h3>
+
+<p>Firefox uses the Gecko rendering engine, a Mozilla product. Both Safari and Chrome (and now Opera on mobile?) use Webkit, which is an open source project. IE uses the Trident rendering engine.</p>
+
+<p>If you&#8217;re curious (as I am!) here&#8217;s the world wide browser market share in 2012:</p>
+
+<p>IE, 54.13%<br/>
+Firefox, 19.99%<br/>
+Chrome, 18.55%<br/>
+Safari, 5.21%<br/>
+Opera, 1.63%<br/>
+Other, 0.49%</p>
+
+<p>That was a quick and dirty overview. As the weeks go on I&#8217;ll dive deeply into each component, even getting down through the deeper layers of the network reference model. If you&#8217;re not sure what that is, you&#8217;ll know soon! (Hint: it&#8217;s how all those 0s and 1s travel over the wires).</p>
+
+<p>Sources:<br/>
+<a href="http://taligarsiel.com/Projects/howbrowserswork1.htm">http://taligarsiel.com/Projects/howbrowserswork1.htm</a><br/>
+<a href="http://bgr.com/2012/11/01/browser-market-share-october-2012-chrome-internet-explorerer/">http://bgr.com/2012/11/01/browser-market-share-october-2012-chrome-internet-explorerer/</a></p>
 </div>
 
 
@@ -132,12 +190,12 @@
   
 
 
-<time datetime="2012-06-13T07:59:00-05:00" pubdate data-updated="true">Jun 13<span>th</span>, 2012</time>
+<time datetime="2013-01-21T14:52:00-06:00" pubdate data-updated="true">Jan 21<span>st</span>, 2013</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/development-/'>development,</a>, <a class='category' href='/blog/categories/dogma/'>dogma</a>, <a class='category' href='/blog/categories/software/'>software</a>
+    <a class='category' href='/blog/categories/tech/'>tech</a>
   
 </span>
 
@@ -146,7 +204,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder/" data-via="marthakelly" data-counturl="http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://marthakelly.github.com/blog/2013/01/21/how-browsers-work/" data-via="marthakelly" data-counturl="http://marthakelly.github.com/blog/2013/01/21/how-browsers-work/" >Tweet</a>
   
   
   
@@ -155,10 +213,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/06/04/hacker-school-day-one/" title="Previous Post: hacker school: day one">&laquo; hacker school: day one</a>
+        <a class="basic-alignment left" href="/blog/2013/01/11/many-tamagotchis-were-harmed/" title="Previous Post: Many Tamagotchis were harmed in the making of this presentation">&laquo; Many Tamagotchis were harmed in the making of this presentation</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/06/26/unlocking-the-clubhouse/" title="Next Post: Unlocking the Clubhouse">Unlocking the Clubhouse &raquo;</a>
       
     </p>
   </footer>
@@ -271,8 +327,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder/';
-        var disqus_url = 'http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder/';
+        var disqus_identifier = 'http://marthakelly.github.com/blog/2013/01/21/how-browsers-work/';
+        var disqus_url = 'http://marthakelly.github.com/blog/2013/01/21/how-browsers-work/';
         var disqus_script = 'embed.js';
       
     (function () {

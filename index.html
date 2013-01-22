@@ -9,7 +9,7 @@
   <meta name="author" content="Martha Kelly">
 
   
-  <meta name="description" content="I&#8217;d like to introduce you to one of my newfound heros, Natalie Silvanovich. Natalie Silvanovich is a &#8220;professional hacker&#8221; and &hellip;">
+  <meta name="description" content="You know a bit about HTML, CSS, and JavaScript but do you now how a browser gets and uses these files to display a website? A browser has a UI (user &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,103 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/21/how-browsers-work/">How Browsers Work</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-21T14:52:00-06:00" pubdate data-updated="true">Jan 21<span>st</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>You know a bit about HTML, CSS, and JavaScript but do you now how a browser gets and uses these files to display a website?</p>
+
+<p>A browser has a UI (user interface) that most commonly includes an address bar, back/forward button, and reload button. Sometimes developers refer to this as the &#8220;chrome&#8221; (little &#8220;c&#8221;, not Chrome by Google) of a browser. When you navigate to a URL in the address bar you are making a &#8220;request&#8221; for the content at that URL.</p>
+
+<p><img src="/images/google-chrome.png"></p>
+
+<p>That URL you typed maps to an IP address. This is called a DNS lookup. DNS stands for &#8220;Domain Name Service&#8221; and it maps numeric computer addresses to human readable names. All computers have a unique IP address. You can find out your personal computer&#8217;s IP address by typing &#8220;ifconfig&#8221; into your terminal window and looking for the number that is displayed in dot decimal format, such as 255.255.255.255. (Note that 127.0.0.1 is used in your computer internally to refer to itself).</p>
+
+<p>For example, one IP address for Google is 74.125.134.102. You can enter 204.232.175.78 in the address bar and it will show the contents at www.google.com.</p>
+
+<p>Once the browser has the IP address it sends an HTTP request to the web server at that address. HTTP stands for &#8220;Hypertext Transfer Protocol&#8221; and is a used to facilitate requests from your client (the browser) and responses from the server. In our case the response is HTML from the web server at www.google.com.</p>
+
+<p>As this HTML response is being sent to your browser, the browser&#8217;s rendering engine is displaying the requested content on your screen. To accomplish this the rendering engine &#8220;parses&#8221; the HTML and creates a DOM tree.</p>
+
+<p>To illustrate this, the rendering engine takes this HTML response:</p>
+
+<pre><code>// Simplified Google.com markup
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt; 
+    &lt;head&gt; 
+        &lt;title&gt;Google&lt;/title&gt;  
+        &lt;link rel="stylesheet" href="css/style.css" 
+            type="text/css" /&gt; 
+    &lt;/head&gt; 
+    &lt;body class="home"&gt; 
+        &lt;h1&gt;Google&lt;/h1&gt; 
+        &lt;img alt="Google" src="/logos/google.jpg"&gt;
+        &lt;input&gt;
+        &lt;button&gt;Google Search&lt;/button&gt;
+    &lt;/body&gt; 
+&lt;/html&gt; 
+</code></pre>
+
+<p>And turns it (conceptually) into a DOM tree <em>like</em> this:<br/>
+(sorry photoshop is being a PITA)</p>
+
+<p><img src="http://www.w3schools.com/htmldom/htmltree.gif"></p>
+
+<p>The browser then parses style data (CSS or inline styles) and together with the HTML it constructs a render tree. The render tree displays rectangles (that represent divs, paragraphs, headlines, etc.) with a few visual attributes such as color and size dimensions. These rectangles are displayed in order on the page. Next, the browser lays out the contents in the position they will appear in the browser. The last step is &#8220;painting&#8221; where the elements are drawn on the screen.</p>
+
+<p>As the browser is rendering the HTML it will find tags (like our link tag and our img tag) that require files from other URLs. The browser will send a request to the web server to get each of these files.</p>
+
+<p>(Note: some interesting things happen in regards to caching but I&#8217;m overlooking them for now. I&#8217;ll include them in a later post).</p>
+
+<h3>Major Browsers</h3>
+
+<p>Firefox uses the Gecko rendering engine, a Mozilla product. Both Safari and Chrome (and now Opera on mobile?) use Webkit, which is an open source project. IE uses the Trident rendering engine.</p>
+
+<p>If you&#8217;re curious (as I am!) here&#8217;s the world wide browser market share in 2012:</p>
+
+<p>IE, 54.13%<br/>
+Firefox, 19.99%<br/>
+Chrome, 18.55%<br/>
+Safari, 5.21%<br/>
+Opera, 1.63%<br/>
+Other, 0.49%</p>
+
+<p>That was a quick and dirty overview. As the weeks go on I&#8217;ll dive deeply into each component, even getting down through the deeper layers of the network reference model. If you&#8217;re not sure what that is, you&#8217;ll know soon! (Hint: it&#8217;s how all those 0s and 1s travel over the wires).</p>
+
+<p>Sources:<br/>
+<a href="http://taligarsiel.com/Projects/howbrowserswork1.htm">http://taligarsiel.com/Projects/howbrowserswork1.htm</a><br/>
+<a href="http://bgr.com/2012/11/01/browser-market-share-october-2012-chrome-internet-explorerer/">http://bgr.com/2012/11/01/browser-market-share-october-2012-chrome-internet-explorerer/</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -647,71 +744,6 @@ console.log(newerKitten); // logs true
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/08/28/hacker-school-day-90/">Hacker School: Day 90</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-28T11:52:00-05:00" pubdate data-updated="true">Aug 28<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://24.media.tumblr.com/tumblr_luxhb5MLBY1r52j4go1_500.jpg" /></p>
-
-<p>I&#8217;m sitting in a cafe in Brooklyn, exhausted, disoriented, and happy. I&#8217;m thinking to myself, &#8220;Holy (enter your own choice expletive here). I did it, I finished Hacker School.&#8221; I look back at my post recapping the first day and it&#8217;s clear the rules of Hacker School permeate our lives, <em>and it feels completely natural</em>. Several Hacker Schoolers have told me how strange the outside world feels now.</p>
-
-<p>During my time at Hacker School I&#8217;ve built my own CSS preprocessor in JS and static site generator in Python. I&#8217;ve contributed to BPython. I built deployment scripts with Boto/Fabric. I built a CLI chat server with sockets. I built full applications with frameworks I hadn&#8217;t touched before (Backbone/Node/Django/etc), and <em>quickly</em>. I took a Stanford course on databases. I&#8217;m taking courses on Machine Learning now. There&#8217;s no way I&#8217;m stopping, and I wouldn&#8217;t have found this place without being inspired by my friends here.</p>
-
-<p>Even more importantly, I learned how to believe in myself. I learned how to ask for help. I learned how to fight my own biases and those of the people around me.</p>
-
-<h3>What I&#8217;ll miss most:</h3>
-
-<ul>
-<li>Every single person here</li>
-<li>Weekly gender and race discussions</li>
-<li>Having deeply nerdy conversations with women I admire</li>
-<li>Karaoke nights</li>
-<li><a href="http://www.flickr.com/photos/etsylabs/4622257286/">Eatsy</a></li>
-<li>IRC silliness</li>
-<li>Epic email threads</li>
-</ul>
-
-
-<p>One thing I know, we&#8217;ll bring the <a href="http://marthakelly.github.com/blog/2012/06/04/hacker-school-day-one/">&#8220;rules&#8221; of Hacker School</a> with us wherever we go.</p>
-
-<p>After Hacker School I&#8217;m headed back to Nashville, a place I dearly love. This feeling of &#8220;otherness&#8221; is creeping in as I integrate back into the developer community there. A recent and popular developer conference had <a href="http://nashville.coderfaire.com/schedule/">one female speaker</a>. A company known for its great developer culture looks <a href="https://www.facebook.com/DevelopWithPurpose">eerily homogenous</a>. I have a lot of work to do here, and Hacker School has given me the skill set to do it.</p>
-
-<p>So now, 90 days later, we go back out into the real world, egos in check, building code of consequence, and destroying stereotypes.</p>
-
-<p>Thanks Sonali, Dave, Alan, Nick, Tom</p>
-
-<p>Never Graduate!</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -731,6 +763,10 @@ console.log(newerKitten); // logs true
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/01/21/how-browsers-work/">how browsers work</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/01/11/many-tamagotchis-were-harmed/">Many Tamagotchis were harmed in the making of this presentation</a>
       </li>
     
@@ -744,10 +780,6 @@ console.log(newerKitten); // logs true
     
       <li class="post">
         <a href="/blog/2012/09/29/first-nashville-womens-stem-group-meetup/">first nashville women&#8217;s STEM group meetup</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/09/27/my-actual-response-to-the-anonymous-idiots-on-the-internet/">my actual response to the anonymous idiots on the internet</a>
       </li>
     
   </ul>
