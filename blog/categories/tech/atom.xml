@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tech | Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2013-01-21T21:02:34-06:00</updated>
+  <updated>2013-01-21T21:06:31-06:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -62,9 +62,9 @@
 
 <p>(Note: some interesting things happen in regards to caching but I'm overlooking them for now. I'll include them in a later post).</p>
 
-<h3>Major Browsers</h3>
+<h3>Notes About Major Browsers</h3>
 
-<p>Firefox uses the Gecko rendering engine, a Mozilla product. Both Safari and Chrome (and now Opera on mobile?) use Webkit, which is an open source project. IE uses the Trident rendering engine.</p>
+<p>Firefox uses the Gecko rendering engine, a Mozilla product. Both Safari and Chrome (and now Opera on mobile?) use Webkit as a rendering engine, which is an open source project. IE uses the Trident rendering engine.</p>
 
 <p>If you're curious (as I am!) here's the world wide browser market share in 2012:</p>
 
