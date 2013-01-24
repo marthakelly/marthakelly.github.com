@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2013-01-21T22:29:02-06:00</updated>
+  <updated>2013-01-23T20:52:38-06:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[authenticity]]></title>
+    <link href="http://marthakelly.github.com/blog/2013/01/23/authenticity/"/>
+    <updated>2013-01-23T20:47:00-06:00</updated>
+    <id>http://marthakelly.github.com/blog/2013/01/23/authenticity</id>
+    <content type="html"><![CDATA[<blockquote><p>I found that my lack of authenticity actually prevented people from getting close to me.  I wasn’t vulnerable.  I didn’t want others to see my mistakes or flaws, and I did everything I could to cover them up.  I would lie if I thought the truth would hurt.  I even had two online profiles – my work profile and my real profile.<br/>And then everything changed.  </p><p>I don’t know if it was an efficiency thing (maintaining 2 separate identities was hard), or if I just decided that I was tired of trying to project “awesome”, and since reality was “pretty darn good” people would just have to accept what I had to offer.  I was going to be me. </p><p>But to my surprise instead of the world settling for me – they embraced it.</p><footer><strong>Kate Matsudaira</strong> <cite><a href='http://katemats.com/authenticity-path-to-success/'>katemats.com/&hellip;</a></cite></footer></blockquote>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[how browsers work]]></title>
@@ -1334,50 +1344,6 @@ I think you should use an
 <p>You should write code that other developers will use all the time. Contribute to open source projects you care about and build tools other developers will use.</p>
 
 <p>Honestly, this is all applicable to <em>your</em> life. Can you imagine STEM being a diverse and supportive community building amazing things together? I can :)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linda Liukas - What every girl needs to know about programming]]></title>
-    <link href="http://marthakelly.github.com/blog/2012/05/30/what-every-girl-needs-to-know-about-programming/"/>
-    <updated>2012-05-30T12:57:00-05:00</updated>
-    <id>http://marthakelly.github.com/blog/2012/05/30/what-every-girl-needs-to-know-about-programming</id>
-    <content type="html"><![CDATA[<iframe width="640" height="510" src="http://www.youtube.com/embed/_rkkFdQeBlA " frameborder="0" allowfullscreen></iframe>
-
-
-<p></p>
-
-<h3>Highlights:</h3>
-
-<ul>
-<li>The low number of girls and women in programming is a systematic problem, something fundamental is missing</li>
-<li>Teenage girls have a massive amount of crazy and creative energy, they <em>should</em> learn to code</li>
-<li>Coding is not lonely and it&#8217;s not mathematical</li>
-<li>We are so stuck in semantics and exclusion that we can&#8217;t function as a community, it&#8217;s no longer fun and enjoyable</li>
-<li>It&#8217;s up to us to create a new culture of development - one that is fun and focuses on creating and building</li>
-</ul>
-
-
-<h3>My thoughts:</h3>
-
-<p>Linda Liukas <em>thank you, thank you, thank you</em>.</p>
-
-<p>Right now (in technology) girls are rewarded when they fit in with the boys, but what about the girls that don&#8217;t and just want to be <em>themselves</em>? The outlets for them are few and far between.</p>
-
-<h3>Not convinced? Try thinking about it this way:</h3>
-
-<p>There are many girls and women frustrated by their experiences in programming, but men are not equally as frustrated. There are few girls and women pursing technology, but there is an abundance of white males. <em>This means it&#8217;s not the same situation</em>. There&#8217;s no reason at all that girls (and boys for that matter!) who like shoes, nail polish, and miu miu handbags can&#8217;t build amazing products that get just as much recognition.</p>
-
-<h3>What can we do to help?</h3>
-
-<p>Girls need more inclusion and more role models (how many female Mark Zuckerbergs can you think of?). Support organizations that make building and learning about technology fun (for example, <a href="http://railsgirls.com/">Rails Girls</a>). This should go without saying, but you should end any RTFM shaming, sexual/objectifying images, and demeaning jokes in the tech communities and workplaces you&#8217;re a part of.</p>
-
-<blockquote><p>If I should ever have a daughter or a son I would like them to see the world of technology through this lens of magical culture.</p><footer><strong>Linda Liukas</strong> <cite>What Every Girl Needs to Know About Programming</cite></footer></blockquote>
-
-
-<p>Please check out <a href="http://railsgirls.com/">Rails Girls</a>, and Linda - thank you.</p>
-
-<p>(also, check out <a href="http://www.lindaliukas.fi/">Linda&#8217;s website!</a>)</p>
 ]]></content>
   </entry>
   
