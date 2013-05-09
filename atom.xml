@@ -4,7 +4,7 @@
   <title><![CDATA[Martha Kelly]]></title>
   <link href="http://marthakelly.github.com/atom.xml" rel="self"/>
   <link href="http://marthakelly.github.com/"/>
-  <updated>2013-03-10T19:41:12-05:00</updated>
+  <updated>2013-05-09T11:16:35-05:00</updated>
   <id>http://marthakelly.github.com/</id>
   <author>
     <name><![CDATA[Martha Kelly]]></name>
@@ -12,6 +12,92 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ladies hack day - what to expect]]></title>
+    <link href="http://marthakelly.github.com/blog/2013/05/09/ladies-hack-day-what-to-expect/"/>
+    <updated>2013-05-09T10:58:00-05:00</updated>
+    <id>http://marthakelly.github.com/blog/2013/05/09/ladies-hack-day-what-to-expect</id>
+    <content type="html"><![CDATA[<p>Hello everyone,</p>
+
+<p>I am excited beyond words about this Saturday. Nashville (and beyond) came together as a community to make this happen, and It has been a joy to watch this come together.</p>
+
+<p>The <strong>biggest of all thank yous</strong> go to our sponsors:</p>
+
+<ul>
+<li><a href="http://myemma.com/">Emma</a></li>
+<li><a href="http://github.com/">Github</a></li>
+<li><a href="http://skillcrush.com/">Skillcrush</a></li>
+<li><a href="http://www.vaco.com/">Vaco</a></li>
+<li><a href="http://www.moontoast.com/">Moontoast</a></li>
+<li><a href="http://metova.com/">Metova</a></li>
+<li><a href="http://www.cowanbenefit.com/">Cowan Benefit Services</a></li>
+<li>Laurie Kalmanson, User Experience Architect</li>
+<li>Sharon Wong, Software Engineer</li>
+<li>Candy Vaughn, ABR, Keller Williams Realty</li>
+<li>T Scot Clausing, Developer</li>
+</ul>
+
+
+<p><strong>What is Ladies’ Hack Day?</strong></p>
+
+<p>Ladies’ Hack Day is a day for women and girls (and men and boys) to come together and celebrate women in computing. Programming is not lonely, it is not scary, it is not mathematical! We’ll have a beginner course in HTML, another beginner course in JS, and an advanced course in Python. We’ll also have a separate Minecraft track to learn about modding Minecraft! You can come and go as you like the entire day.</p>
+
+<p><strong>Who can come?</strong></p>
+
+<p>Anyone! Hopefully you RSVP’d but if you didn’t, just show up, we’re happy to have you. We’ll have children as young as 5 and adults in their 50s!</p>
+
+<p><strong>What will we do?</strong></p>
+
+<p>In the beginner tracks we’ll build an interactive e-card for Mother’s Day. I’m reminded of this quote, “Biology is the least of what makes someone a mother.” - Oprah Winfrey. The card could be for any person in your life you want to say thank you to.</p>
+
+<p>In the advanced track we will build a Twitter bot for good in Python (more info below).</p>
+
+<p><strong>Schedule:</strong></p>
+
+<p><strong>9:45-10:45</strong></p>
+
+<p>Coffee by <a href="http://www.bevecoffee.com/">Beve</a>, provided by Vaco and Moontoast</p>
+
+<p><strong>10:45 - 11:00</strong></p>
+
+<p>Opening remarks</p>
+
+<p><strong>11:00 - ??</strong>
+<strong>Intro to Minecraft modding</strong></p>
+
+<p>We&#8217;ll have a few helpful folks available to get you started with modding Minecraft.</p>
+
+<p><strong>11:15 - 12:15</strong>
+<strong>Intro to HTML!</strong></p>
+
+<p>We’ll learn about HTML, what it is, and how to write it. You’ll leave with a finished card to send to someone you love (you write the HTML, we’ll provide the CSS and JS). You’re free to Hack on this project or anything you want for the rest of the day. We also encourage you to stick around and watch the JS presentation, even if just to observe.</p>
+
+<p><strong>12:30 - 1:30</strong>
+<strong>lunch!</strong></p>
+
+<p>Quiches, salads, and hummus by Whole Foods. Provided by Github and Metova.</p>
+
+<p><strong>1:45 - 2:45</strong>
+<strong>Intro to JavaScript</strong></p>
+
+<p>We’ll build upon the HTML track but write the JavaScript interaction from scratch. We’ll learn what JavaScript is, what jQuery is, and how we can use both of these languages to bend the web to our will.</p>
+
+<p><strong>CUPCAKE BREAK - cupcakes from Cupcake Collection</strong></p>
+
+<p><strong>3:00 - 5:00</strong>
+<strong>Intro to Python</strong></p>
+
+<p>Together we’ll build a twitter bot, but for good! We’ll learn about Python, how a server side language differs from a client side language, and how to use Python and the Twitter API to build an optimistic twitter bot. We’ll walk through the code line by line, you just bring an idea for a cute twitter bot! (my example: @instacompliment - a bot that searches Twitter for the words “bad day” and then sends that user a compliment)</p>
+
+<p><strong>5:00 - 6:00</strong>
+<strong>Show and tell</strong></p>
+
+<p>If you’d like to show off your work, this is your chance! This is definitely not required, just encouraged.</p>
+
+<p>I can’t wait to see you on Saturday!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[An Open Letter To the Nashville Tech Community]]></title>
@@ -1368,18 +1454,6 @@ I think you should use an
     <id>http://marthakelly.github.com/blog/2012/06/26/unlocking-the-clubhouse</id>
     <content type="html"><![CDATA[<blockquote><p>The goal is not to fit women into computer science as it is currently taught and conceived. Rather, a cultural and curricular revolution is required.</p><footer><strong>Jane Margolis, Allan Fisher</strong> <cite><a href='http://www.amazon.com/Unlocking-Clubhouse-Computing-Jane-Margolis/dp/0262133989'>www.amazon.com/dp/0262133989/&hellip;</a></cite></footer></blockquote>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[creator vs builder]]></title>
-    <link href="http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder/"/>
-    <updated>2012-06-13T07:59:00-05:00</updated>
-    <id>http://marthakelly.github.com/blog/2012/06/13/creator-vs-builder</id>
-    <content type="html"><![CDATA[<blockquote><p>And here’s the real crux of the problem: software engineers aren’t builders. Software engineers are creators. Building is what you do when you buy a piece of furniture from Ikea and get it home. The instructions are laid out and if you go step by step, you’ll get that comically small table you wanted. Creating is a different process, it’s birthing something without direction or instruction. It’s starting with a blank canvas and painting a masterpiece. Software engineers don’t get into coding because they want someone to tell them what to do, they get into it because they discovered they could create something useful. Every single software engineer fell in love with coding because she made a small, useful program early on and was hooked.</p></blockquote>
-
-
-<p><a href="http://www.nczonline.net/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/">The care and feeding of software engineers (or, why engineers are grumpy)</a> - Nicholas C. Zakas</p>
 ]]></content>
   </entry>
   
